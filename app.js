@@ -189,8 +189,11 @@
         + "à partir de mon profil et de l'avancée de mon bootcamp (projet Data). Lis l'annonce au lien ci-dessous, "
         + "n'invente aucune compétence et signale ce qui manque.\n\nOffre : " + o.titre + "\nEntreprise : " + o.entreprise
         + (o.lieu ? "\nLieu : " + o.lieu : "") + "\nLien : " + o.url;
-      cand.href = "https://claude.ai/new?q=" + encodeURIComponent(consigne);
+      cand.href = "https://claude.ai/project/01a1e904-56ee-73eb-8e91-44c63cac8d94?q=" + encodeURIComponent(consigne);
       cand.target = "_blank"; cand.rel = "noopener";
+      cand.addEventListener("click", function () {
+        try { navigator.clipboard.writeText(consigne); } catch (e) { /* le collage manuel reste possible */ }
+      });
       actions.appendChild(cand);
       actions.appendChild(bouton("s-act--postule", "J'ai postulé", function () { changer(o, "postule", "Bravo ! Rangée dans « Postulé »"); }));
       actions.appendChild(bouton("s-act--non", "✕", function () { changer(o, "ecarte", "Offre écartée"); }));
