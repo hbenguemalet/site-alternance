@@ -29,5 +29,6 @@ window.STAGES = {
    "Alternances (service public)",
    "https://www.1jeune1solution.gouv.fr/"
   ]
- ]
+ ],
+ "candidature": "hbenguemalet/candidatures"
 };
