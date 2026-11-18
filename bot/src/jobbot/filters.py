@@ -76,6 +76,9 @@ def evaluate(p: Profile, o: Offer) -> Verdict:
     for rx in p.exclure:
         if rx.search(o.title) or rx.search(o.description):
             return Verdict(False, f"exclu par {rx.pattern!r}", contrat=contrat)
+    for rx in p.exclure_titre:
+        if m := rx.search(o.title):
+            return Verdict(False, f"autre domaine dans le titre ({matched_word(m)})", contrat=contrat)
     hits, texts = [], []
     for rx in p.inclure:
         if m := rx.search(o.title):

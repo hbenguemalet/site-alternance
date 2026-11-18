@@ -14,7 +14,7 @@ def profil():
     return load(RACINE / "profiles.yaml", VILLES)[0]
 
 
-def offre(desc="", fiche="", title="Alternance Data & People analytics"):
+def offre(desc="", fiche="", title="Alternance Data Analyst"):
     return Offer("greenhouse", "1", title, "ACME", "Paris", "https://x/1", desc, contract="alternance",
                  fiche=fiche, city_key="paris")
 
@@ -34,3 +34,15 @@ def test_stack_dans_annonce_accepte():
 
 def test_sans_texte_pas_de_controle():
     assert evaluate(profil(), offre()).ok  # mail d'alerte : on ne peut pas vérifier
+
+
+def test_autre_domaine_dans_le_titre_rejete():
+    for t in ("Alternance Data Analyst Comptabilité", "Alternance Data RH", "Alternance Data & Marketing",
+              "Alternance Contrôle de gestion data", "Alternance People Analytics"):
+        v = evaluate(profil(), offre(title=t))
+        assert not v.ok and "autre domaine" in v.raison, t
+
+
+def test_titres_data_gardes():
+    for t in ("Alternance Data Analyst (H/F)", "Alternance Data Engineer", "Alternance Business Intelligence", "Alternance Analytics Engineer"):
+        assert evaluate(profil(), offre(title=t)).ok, t

@@ -63,3 +63,16 @@ def test_push_en_erreur_ne_leve_pas(tmp_path, monkeypatch):
 
     monkeypatch.setattr(site.subprocess, "run", casse)
     assert site.publier(tmp_path, "x") is False
+
+
+def test_offre_toujours_presente_rafraichie_et_texte_garde(tmp_path):
+    scfg = {"dossier": "web", "depot_candidature": "moi/depot"}
+    o = offre(desc="SQL et Power BI " * 20)
+    site.update("p", [(o, Verdict(True, score=75))], scfg, tmp_path, NOW)
+    later = datetime(2026, 11, 20, tzinfo=UTC)
+    site.update("p", [(offre(), Verdict(True, score=75))], scfg, tmp_path, later)  # revue sans texte
+    store = json.loads((tmp_path / "data" / "site_p.json").read_text("utf-8"))
+    e = store["https://x/1"]
+    assert e["vu"].startswith("2026-11-20") and e["premiere"].startswith("2026-11-18") and "SQL" in e["texte"]
+    js = (tmp_path / "web" / "offres.js").read_text("utf-8")
+    assert '"texte"' not in js and '"candidature": "moi/depot"' in js

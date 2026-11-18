@@ -184,6 +184,12 @@
       actions.appendChild(bouton("s-act--non", "✕", function () { changer(o, "ecarte", "Offre écartée"); }));
       actions.lastChild.setAttribute("aria-label", "Pas pour moi");
     } else if (s === "interesse") {
+      if (DATA.candidature) {
+        var cand = el("a", "s-act s-act--voir", "✎ Préparer ma candidature");
+        cand.href = "https://github.com/" + DATA.candidature + "/issues/new?title=" + encodeURIComponent("Candidature : " + o.titre + " — " + o.entreprise) + "&body=" + encodeURIComponent(o.url);
+        cand.target = "_blank"; cand.rel = "noopener";
+        actions.appendChild(cand);
+      }
       actions.appendChild(bouton("s-act--postule", "J'ai postulé", function () { changer(o, "postule", "Bravo ! Rangée dans « Postulé »"); }));
       actions.appendChild(bouton("s-act--non", "✕", function () { changer(o, "ecarte", "Offre écartée"); }));
       actions.lastChild.setAttribute("aria-label", "Finalement pas pour moi");

@@ -50,6 +50,13 @@ profils:
       - '\bdata\b|\bsql\b|\bbi\b'
     # Stack technique obligatoire dans le texte de l'annonce (quand on l'a) : écarte les postes RH /
     # métier qui ont « data » dans l'intitulé mais ne demandent ni SQL ni outil de BI.
+    # « data » dans le titre est gardé, sauf si le titre annonce aussi un autre domaine (compta, RH…).
+    exclure_titre:
+      - 'compta|comptab|\bfinanc|contr[ôo]le de gestion|\baudit|\bpaie\b|tr[ée]sorerie|fiscal'
+      - '\brh\b|\bgrh\b|ressources? humaines?|\bpeople\b|talent|recrut'
+      - 'marketing|communication|commercial|\bvente|\bsales\b|business develop|merchandis|e-?commerce|\bseo\b|community'
+      - 'juridique|juriste|\bdpo\b|conformit|compliance|\brgpd'
+      - 'logisti|supply|\bachats?\b|approvisionn|transport'
     exiger:
       - '\bsql\b|postgre|mysql|bigquery|snowflake|redshift|databricks|\bspark\b'
       - 'power ?bi|tableau|looker|metabase|qlik|\bdbt\b|airflow|\betl\b|\bpython\b'

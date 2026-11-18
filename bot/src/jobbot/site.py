@@ -70,6 +70,7 @@ def entry(o: Offer, v: Verdict, now: datetime) -> dict:
         "etoile": bool(RX_ETOILE.search(o.title)), "salaire": o.salary or "",
         "site": SITES.get(o.source, o.source.capitalize()), "pourquoi": [], "note": None,
         "infos": infos(o), "score": v.score, "vu": now.isoformat(timespec="seconds"),
+        "texte": " ".join((o.fiche or o.description or "").split())[:6000],
     }
 
 
@@ -80,18 +81,25 @@ def update(profil_id: str, retenues: list[tuple[Offer, Verdict]], scfg: dict, ro
     store = root / "data" / f"site_{profil_id}.json"
     store.parent.mkdir(parents=True, exist_ok=True)
     gardees: dict[str, dict] = json.loads(store.read_text("utf-8")) if store.exists() else {}
-    for o, v in retenues:
-        gardees.setdefault(o.url, entry(o, v, now))
-    limite = (now - timedelta(days=scfg.get("conserver_jours", 60))).isoformat()
+    for o, v in retenues:  # chaque passage rafraîchit « vu » : une offre disparue vieillit puis est purgée
+        e = entry(o, v, now)
+        e["premiere"] = gardees.get(o.url, {}).get("premiere", e["vu"])
+        if not e["texte"]:
+            e["texte"] = gardees.get(o.url, {}).get("texte", "")
+        gardees[o.url] = e
+    limite = (now - timedelta(days=scfg.get("conserver_jours", 21))).isoformat()
     gardees = {u: e for u, e in gardees.items() if e["vu"] >= limite}
     store.write_text(json.dumps(gardees, ensure_ascii=False), "utf-8")
 
     seuil = scfg.get("score_proche", 60)
-    tri = sorted(gardees.values(), key=lambda e: (e["score"], e["vu"]), reverse=True)
+    tri = [{k: v for k, v in e.items() if k != "texte"}  # le texte des annonces reste dans le JSON, pas dans la page
+           for e in sorted(gardees.values(), key=lambda e: (e["score"], e["premiere"]), reverse=True)]
     data = {"date": now.date().isoformat(),
             "meilleures": [e for e in tri if e["score"] >= seuil],
             "autres": [e for e in tri if e["score"] < seuil],
             "liens": LIENS}
+    if scfg.get("depot_candidature"):
+        data["candidature"] = scfg["depot_candidature"]
     dossier = Path(scfg["dossier"])
     if not dossier.is_absolute():
         dossier = root / dossier

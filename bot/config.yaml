@@ -49,7 +49,8 @@ site:
   profil: alternance-data
   dossier: ..                          # racine du dépôt (là où est index.html), voir .github/workflows/bot.yml
   score_proche: 60                     # score ≥ → affichées d'emblée ; en dessous : « Voir N autres offres »
-  conserver_jours: 60
+  conserver_jours: 21                  # une offre plus revue depuis N jours disparaît de la page
+  depot_candidature: hbenguemalet/candidatures   # dépôt privé : lien « candidature » sur les offres gardées
   git_push: true                       # true : `dossier` est un clone git de la page, offres.js y est poussé
 
 notifications:

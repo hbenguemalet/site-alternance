@@ -87,6 +87,20 @@ def select(p: Profile, offers: list, store: Store):
     return new, rejected
 
 
+def select_all(p: Profile, offers: list) -> list:
+    """Toutes les offres pertinentes du moment (nouvelles ou non), pour la page web."""
+    out, seen_now = [], set()
+    for o in offers:
+        keys = {(o.source, o.source_id), fingerprint(o), ("url", canonical_url(o) or id(o))}
+        if keys & seen_now:
+            continue
+        seen_now |= keys
+        v = evaluate(p, o)
+        if v.ok:
+            out.append((o, v))
+    return out
+
+
 def notify(p: Profile, new: list, webhook: str, cfg: dict, store: Store) -> tuple[int, int]:
     """Envoie les offres du profil : quelques cartes par message (≤ 10, triées par score), ou un
     récapitulatif en liste au-delà du seuil. Une offre n'est enregistrée comme vue que si son
@@ -164,7 +178,7 @@ def run(seed: bool = False, dry_run: bool = False, profil: str | None = None,
         scfg = cfg.get("site") or {}
         if scfg.get("profil") == p.id and not dry_run:
             from jobbot import site
-            n = site.update(p.id, new, scfg, ROOT)
+            n = site.update(p.id, select_all(p, offers), scfg, ROOT)
             log.info("[%s] page web : %d offres publiées", p.id, n)
 
         if seed:
