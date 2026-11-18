@@ -57,6 +57,10 @@ class Verdict:
         return any(m.startswith("titre:") for m in self.matched_on)
 
 
+# En dessous de ce nombre de caractères, on n'a pas le texte de l'annonce (mail d'alerte) : pas de contrôle
+TEXTE_MIN = 200
+
+
 def evaluate(p: Profile, o: Offer) -> Verdict:
     """Décide si l'offre `o` (ville déjà résolue) convient au profil `p`."""
     contrat = detect(o)
@@ -90,6 +94,10 @@ def evaluate(p: Profile, o: Offer) -> Verdict:
             texts.append(o.alert)
     if not hits:
         return Verdict(False, "aucun mot-clé", contrat=contrat)
+    if p.exiger:  # « data » dans le titre ne suffit pas : il faut une vraie stack dans l'annonce
+        annonce = f"{o.description} {o.fiche}"
+        if len(annonce.strip()) >= TEXTE_MIN and not any(rx.search(f"{o.title} {annonce}") for rx in p.exiger):
+            return Verdict(False, "aucune stack technique dans l'annonce", contrat=contrat)
     etoile = any(rx.search(o.title) or rx.search(o.description) for rx in p.etoile)
     score, detail = compute_score(p, o, hits, etoile, contrat)
     if score < p.score_min:

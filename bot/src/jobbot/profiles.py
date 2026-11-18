@@ -10,7 +10,7 @@ from jobbot.contracts import CONTRATS
 
 CHAMPS = {"id", "nom", "description", "actif", "villes", "contrats", "contrat_inconnu",
           "inclure", "exclure", "exclure_entreprises", "etoile", "webhook", "bonus", "score_min",
-          "recap_a_partir_de", "fiche", "alertes_fiche", "avatar"}
+          "recap_a_partir_de", "fiche", "alertes_fiche", "avatar", "exiger"}
 
 
 @dataclass
@@ -31,6 +31,8 @@ class Profile:
     fiche: list[re.Pattern] = field(default_factory=list)
     # Alertes e-mail dont la recherche (faite par le site dans toute l'annonce) suffit
     alertes_fiche: list[re.Pattern] = field(default_factory=list)
+    # Stack technique obligatoire dans l'annonce (au moins une regex) quand son texte est disponible
+    exiger: list[re.Pattern] = field(default_factory=list)
     webhook: str = ""
     avatar: str = ""  # URL https d'une image : avatar des messages Discord du profil
     description: str = ""
@@ -93,6 +95,7 @@ def parse(data: dict, villes_connues: set[str]) -> list[Profile]:
             score_min=score_min, recap_a_partir_de=recap,
             fiche=_regex(pid, "fiche", p.get("fiche")),
             alertes_fiche=_regex(pid, "alertes_fiche", p.get("alertes_fiche")),
+            exiger=_regex(pid, "exiger", p.get("exiger")),
             description=" ".join((p.get("description") or "").split()),
             actif=p.get("actif", True),
         ))

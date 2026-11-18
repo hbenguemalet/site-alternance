@@ -48,6 +48,11 @@ profils:
     # Alertes e-mail dont la recherche suffit : le site a trouvé data/SQL dans l'annonce
     alertes_fiche:
       - '\bdata\b|\bsql\b|\bbi\b'
+    # Stack technique obligatoire dans le texte de l'annonce (quand on l'a) : écarte les postes RH /
+    # métier qui ont « data » dans l'intitulé mais ne demandent ni SQL ni outil de BI.
+    exiger:
+      - '\bsql\b|postgre|mysql|bigquery|snowflake|redshift|databricks|\bspark\b'
+      - 'power ?bi|tableau|looker|metabase|qlik|\bdbt\b|airflow|\betl\b|\bpython\b'
     exclure:
       - 'data ?cent(er|re)'              # commercial / technicien data center : hors sujet
     exclure_entreprises:                 # écoles qui publient des « offres » pour recruter des élèves

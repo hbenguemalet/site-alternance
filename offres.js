@@ -1,26 +1,7 @@
 /* Généré par le bot d'offres (profil alternance-data) — ne pas modifier à la main. */
 window.STAGES = {
  "date": "2026-11-18",
- "meilleures": [
-  {
-   "titre": "Data & People analytics Apprentice - January 2027",
-   "entreprise": "Mirakl",
-   "lieu": "Paris, France",
-   "url": "https://job-boards.greenhouse.io/mirakl/jobs/4846754004",
-   "etoile": false,
-   "salaire": "",
-   "site": "Greenhouse",
-   "pourquoi": [],
-   "note": null,
-   "infos": [
-    "Début : non précisé",
-    "Rythme : non précisé",
-    "Durée : non précisée"
-   ],
-   "score": 60,
-   "vu": "2026-11-18T20:54:28+00:00"
-  }
- ],
+ "meilleures": [],
  "autres": [],
  "liens": [
   [
