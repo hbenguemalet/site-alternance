@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alternances data · septembre 2027</title>
+<meta name="description" content="Alternances data, SQL et BI à Lille et Paris pour la rentrée 2027.">
+<!-- Page personnelle : pas dans le menu, pas dans le sitemap, pas indexée. -->
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#eef4f7">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2323b6ee'/><path d='M8 22V14M14 22V9M20 22V17M26 22V11' stroke='%23fff' stroke-width='3' stroke-linecap='round'/></svg>">
+<link rel="stylesheet" href="/kit/kit.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="k-screen">
+
+  <header class="k-header s-entete">
+    <h1 class="k-title">Mes alternances · septembre 2027</h1>
+    <p class="k-lede">Alternances data, SQL et BI à Lille et Paris : garde celles qui te plaisent, écarte les autres.</p>
+    <div class="s-guide">
+      <div class="s-mii-cadre"><img class="s-mii" src="bot.svg" width="96" height="96" alt=""></div>
+      <p class="s-bulle" id="s-bulle" aria-live="polite"></p>
+    </div>
+  </header>
+
+  <main class="k-main">
+
+    <nav class="s-onglets" aria-label="Mes listes">
+      <button class="s-onglet" data-vue="trier" aria-pressed="true">À trier <span class="s-compte" id="n-trier"></span></button>
+      <button class="s-onglet" data-vue="interesse" aria-pressed="false">Gardées <span class="s-compte" id="n-interesse"></span></button>
+      <button class="s-onglet" data-vue="postule" aria-pressed="false">Postulé <span class="s-compte" id="n-postule"></span></button>
+      <button class="s-onglet" data-vue="ecarte" aria-pressed="false">Écartées <span class="s-compte" id="n-ecarte"></span></button>
+    </nav>
+
+    <div class="s-filtres" role="group" aria-label="Filtres">
+      <div class="s-defile">
+      <div class="s-groupe" role="group" aria-label="Ville">
+        <button class="k-chip s-filtre" data-ville="" aria-pressed="true">Partout</button>
+        <button class="k-chip s-filtre" data-ville="paris" aria-pressed="false">Paris</button>
+        <button class="k-chip s-filtre" data-ville="lille" aria-pressed="false">Lille</button>
+      </div>
+      <div class="s-groupe" role="group" aria-label="Employeur">
+        <button class="k-chip s-filtre" data-type="" aria-pressed="true">Tous employeurs</button>
+        <button class="k-chip s-filtre" data-type="entreprise" aria-pressed="false">Entreprises</button>
+        <button class="k-chip s-filtre" data-type="esn" aria-pressed="false">ESN · Conseil data</button>
+        <button class="k-chip s-filtre" data-type="public" aria-pressed="false">Public</button>
+      </div>
+      <button class="k-chip s-filtre" id="f-rse" aria-pressed="false">★ Analyst / Engineer</button>
+      </div>
+      <input class="k-input s-cherche" id="s-cherche" type="search" placeholder="Chercher un mot…" aria-label="Chercher un mot dans les offres">
+    </div>
+
+    <p class="s-aide" id="s-aide"></p>
+
+    <ol class="s-liste" id="s-liste"></ol>
+
+    <div class="s-plus" id="s-plus" hidden>
+      <button class="k-btn" id="s-plus-btn">Voir les autres offres</button>
+      <p class="s-plus-txt">Ces offres collent moins à ta recherche (intitulé plus général ou domaine voisin).</p>
+    </div>
+
+    <section class="s-ailleurs">
+      <h2 class="s-h2">À regarder aussi</h2>
+      <div class="s-liens" id="s-liens"></div>
+    </section>
+
+  </main>
+
+  <footer class="k-footer">
+    <span id="s-maj">Liste mise à jour récemment</span> · Tes choix restent sur cet appareil · <a href="/">louishanquiez.fr</a>
+  </footer>
+
+</div>
+
+<div class="s-toast" id="s-toast" role="status" aria-live="polite" hidden>
+  <span id="s-toast-txt"></span>
+  <button class="s-toast-btn" id="s-toast-annuler">Annuler</button>
+</div>
+
+<script src="offres.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
