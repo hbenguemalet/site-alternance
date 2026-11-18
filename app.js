@@ -184,12 +184,14 @@
       actions.appendChild(bouton("s-act--non", "✕", function () { changer(o, "ecarte", "Offre écartée"); }));
       actions.lastChild.setAttribute("aria-label", "Pas pour moi");
     } else if (s === "interesse") {
-      if (DATA.candidature) {
-        var cand = el("a", "s-act s-act--voir", "✎ Préparer ma candidature");
-        cand.href = "https://github.com/" + DATA.candidature + "/issues/new?title=" + encodeURIComponent("Candidature : " + o.titre + " — " + o.entreprise) + "&body=" + encodeURIComponent(o.url);
-        cand.target = "_blank"; cand.rel = "noopener";
-        actions.appendChild(cand);
-      }
+      var cand = el("a", "s-act s-act--voir", "✎ Préparer ma candidature");
+      var consigne = "Prépare ma candidature : fais-moi un CV (1 page) et une lettre de motivation sur mesure pour cette offre, "
+        + "à partir de mon profil et de l'avancée de mon bootcamp (projet Data). Lis l'annonce au lien ci-dessous, "
+        + "n'invente aucune compétence et signale ce qui manque.\n\nOffre : " + o.titre + "\nEntreprise : " + o.entreprise
+        + (o.lieu ? "\nLieu : " + o.lieu : "") + "\nLien : " + o.url;
+      cand.href = "https://claude.ai/new?q=" + encodeURIComponent(consigne);
+      cand.target = "_blank"; cand.rel = "noopener";
+      actions.appendChild(cand);
       actions.appendChild(bouton("s-act--postule", "J'ai postulé", function () { changer(o, "postule", "Bravo ! Rangée dans « Postulé »"); }));
       actions.appendChild(bouton("s-act--non", "✕", function () { changer(o, "ecarte", "Offre écartée"); }));
       actions.lastChild.setAttribute("aria-label", "Finalement pas pour moi");
