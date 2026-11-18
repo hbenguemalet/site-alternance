@@ -146,11 +146,11 @@
     var s = statut(o);
     var li = el("li", "s-offre" + (nouvelles[o.url] && s === "trier" ? " est-nouvelle" : ""));
     var tete = el("div", "s-tete");
-    if (nouvelles[o.url]) tete.appendChild(el("span", "k-chip k-chip--good", "Nouveau"));
-    if (o.etoile) tete.appendChild(el("span", "k-chip k-chip--good", "★ Data"));
-    tete.appendChild(el("span", "k-chip", { entreprise: "Entreprise", esn: "ESN · Conseil", public: "Public" }[o.type]));
-    if (o.salaire) tete.appendChild(el("span", "k-chip", o.salaire));
-    if (o.note) tete.appendChild(el("span", "k-chip k-chip--warn", o.note));
+    if (nouvelles[o.url]) tete.appendChild(el("span", "a-chip a-chip--good", "Nouveau"));
+    if (o.etoile) tete.appendChild(el("span", "a-chip a-chip--good", "★ Data"));
+    tete.appendChild(el("span", "a-chip", { entreprise: "Entreprise", esn: "ESN · Conseil", public: "Public" }[o.type]));
+    if (o.salaire) tete.appendChild(el("span", "a-chip", o.salaire));
+    if (o.note) tete.appendChild(el("span", "a-chip a-chip--warn", o.note));
     li.appendChild(tete);
 
     var bloc = el("div");
@@ -161,7 +161,7 @@
     if (o.infos && o.infos.length) {
       var inf = el("p", "s-infos");
       o.infos.forEach(function (t) {
-        inf.appendChild(el("span", "k-chip" + (/non précis/.test(t) ? " k-chip--warn" : " k-chip--good"), t));
+        inf.appendChild(el("span", "a-chip" + (/non précis/.test(t) ? " a-chip--warn" : " a-chip--good"), t));
       });
       bloc.appendChild(inf);
     }
@@ -170,7 +170,7 @@
     var info = memo.statuts[o.url];
     if (s === "postule" && info && info.d) {
       li.appendChild(el("p", "s-statut", "✓ Postulé le " + jour(info.d)));
-      if (aRelancer(o)) tete.insertBefore(el("span", "k-chip k-chip--warn", "À relancer ?"), tete.firstChild);
+      if (aRelancer(o)) tete.insertBefore(el("span", "a-chip a-chip--warn", "À relancer ?"), tete.firstChild);
     }
     if (s === "postule" && info && !info.d) li.appendChild(el("p", "s-statut", "✓ Postulé"));
     if (s === "interesse" || s === "postule") li.appendChild(blocVerif(o));
