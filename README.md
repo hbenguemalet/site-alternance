@@ -1,25 +1,20 @@
 # Site alternance
 
-Page perso (non indexée) qui liste les alternances data / SQL trouvées par le bot.
+Page perso (non indexée) qui liste les alternances data / SQL repérées par un bot, mise à jour
+toutes les heures par GitHub Actions (pas besoin d'allumer un PC).
 
 - `index.html`, `style.css`, `theme.css`, `app.js`, `bot.svg` : la page.
-- `offres.js` : les offres, réécrites et poussées ici par le bot.
-- `patch-jobs-bot.patch` : ajout à appliquer au bot (`git apply patch-jobs-bot.patch`) : export de `offres.js` + `git push`.
+- `offres.js` : les offres, réécrites par le bot.
+- `bot/` : le bot (pages carrières d'entreprises ; alertes e-mail en option). Réglages : `bot/config.yaml`, `bot/profiles.yaml`.
+- `.github/workflows/bot.yml` : lance le bot chaque heure, sauvegarde sa mémoire (branche `bot-data`), publie la page.
 
-## Brancher le bot (sur le serveur où il tourne)
+## Mise en route
+1. Settings, Pages, **Source : GitHub Actions**.
+2. Onglet Actions, « Bot offres + publication », **Run workflow** (premier lancement).
+3. La page est sur `https://hbenguemalet.github.io/site-alternance/`.
 
-1. Clone ce dépôt en SSH : `git clone git@github.com:hbenguemalet/site-alternance.git ~/site-alternance`
-2. Crée une clé : `ssh-keygen -t ed25519 -f ~/.ssh/site_alternance -N ""`, puis ajoute `site_alternance.pub`
-   dans GitHub : dépôt, Settings, Deploy keys, **Allow write access**. Dans `~/.ssh/config` :
-   `Host github.com` / `IdentityFile ~/.ssh/site_alternance`.
-3. Dans `config.yaml` du bot :
-   ```yaml
-   site:
-     profil: alternance-data
-     dossier: /home/ubuntu/site-alternance
-     git_push: true
-   ```
-4. Au prochain passage du bot, `offres.js` est commité et poussé si la liste a changé.
+## Ajouter les alertes e-mail (optionnel)
+Crée une boîte dédiée, mets-y des alertes Indeed / HelloWork / LinkedIn, puis ajoute dans Settings, Secrets and variables, Actions :
+`IMAP_HOST`, `IMAP_USER`, `IMAP_PASSWORD`, `IMAP_FOLDER`, et passe `sources.email_alerts` à `true` dans `bot/config.yaml`.
 
-## Publier avec GitHub Pages
-Settings, Pages, Source : branche `main`, dossier `/ (root)`. Chaque push du bot republie la page.
+Bot d'origine : jobs-bot de Louis Hanquiez, adapté avec son accord.

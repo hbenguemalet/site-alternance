@@ -1,0 +1,62 @@
+# Profils de recherche : un bloc par personne. Ajouter un profil = ajouter un bloc
+# + créer ses alertes e-mail sur la boîte dédiée. Aucun secret ici : `webhook` est
+# le NOM d'une variable de .env, pas l'URL.
+#
+# Champs :
+#   id            identifiant court (sert dans la base et pour --profil)
+#   nom           nom affiché sur Discord
+#   description   ce que la personne cherche (texte libre, pour les humains)
+#   actif         false = profil ignoré
+#   villes        clés de la section `villes` de config.yaml
+#   contrats      parmi : cdi, cdd, stage, alternance, freelance, interim
+#   contrat_inconnu  garder | rejeter (quand ni la source ni le titre ne le disent)
+#   inclure       regex (insensibles à la casse) ; il en faut au moins une qui matche
+#   exclure       regex ; une seule qui matche suffit à rejeter
+#   exclure_entreprises  regex testées sur le nom de l'entreprise
+#   etoile        regex ; si une matche, l'offre est marquée ⭐
+#   bonus         « regex: points » ajoutés au score (titre, description ou entreprise) ; négatif possible
+#   score_min     0–100 : offres sous ce score rejetées (0 par défaut : on ne rejette rien)
+#   recap_a_partir_de  au-delà de N offres dans un passage : un récapitulatif au lieu de N messages
+#                 (sinon réglage global notifications.recap_a_partir_de de config.yaml)
+#   webhook       nom de la variable .env du salon Discord du profil
+#   avatar        (optionnel) URL https d'une image carrée (PNG, 256×256) : avatar des messages
+#                 du profil ; images dans le dossier statique du VPS → https://louishanquiez.fr/jobbot/
+#
+# Score (0–100) : base 40, +20 mot-clé dans le titre, +5 par autre mot-clé (max +15),
+# +15 si ⭐, + bonus du profil, -10 si contrat inconnu. Affiché sur Discord et en --dry-run.
+
+profils:
+  - id: alternance-data
+    nom: "Alternance Data/SQL"
+    description: >
+      Alternance en data / SQL : data analyst, data engineer, BI, analytics engineer.
+    actif: true
+    villes: [lille, paris]
+    contrats: [alternance]
+    contrat_inconnu: rejeter
+    inclure:
+      - '\bdata(?!base)'                 # data, Big Data, Dataops, Datascientist… (pas « database »)
+      - '\banalytics engineer'           # poste data/SQL (dbt) sans « data » dans le titre
+      - 'sql'                            # SQL, MySQL, PostgreSQL, NoSQL, T-SQL, PL/SQL
+      - '\bbusiness intelligence\b|\bbi\b'
+    # Titre sans mot-clé : on cherche dans l'annonce complète (pages carrières). « data » seul
+    # y est partout (« culture data-driven ») : on veut du SQL, un métier ou un outil data.
+    fiche:
+      - '\bsql\b|postgre|bigquery|snowflake|redshift'
+      - 'data ?(analyst|engineer|scien)|analytics engineer|business intelligence'
+      - 'power ?bi|tableau|looker|\bdbt\b|airflow|\betl\b'
+    # Alertes e-mail dont la recherche suffit : le site a trouvé data/SQL dans l'annonce
+    alertes_fiche:
+      - '\bdata\b|\bsql\b|\bbi\b'
+    exclure:
+      - 'data ?cent(er|re)'              # commercial / technicien data center : hors sujet
+    exclure_entreprises:                 # écoles qui publient des « offres » pour recruter des élèves
+      - '[ée]cole|\bschool\b|\bcfa\b|\bformations?\b|\bacad[ée]m'
+      - '\biscod\b|\bstudi\b|openclassrooms|\bifocop\b|\bsimplon\b|\bepsi\b|\besgi\b'
+      - '\bipac\b|\bwis\b|\bf2i\b|\baston\b|\bwild code\b|\bmydigitalschool\b'
+      - '^stages?$'                      # « stages » : plateforme de mise en relation, pas un employeur
+    etoile: []
+    bonus:
+      'data ?analyst|data ?engineer|analytics engineer': 10
+      '\bpython\b|power ?bi|\bdbt\b': 5
+    webhook: DISCORD_WEBHOOK_URL         # nom d'une variable ; inutile tant que notifications.discord est false

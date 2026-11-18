@@ -1,0 +1,99 @@
+# Règles métier du bot (pas de secrets ici : ils vont dans .env)
+
+villes:
+  lille:
+    libelle: "Lille"
+    adzuna_where: "Lille"
+    departements: ["59"]
+    lat: 50.6292                       # centre utilisé par l'API La bonne alternance
+    lon: 3.0573
+    alias: ["lille", "villeneuve-d'ascq", "villeneuve d'ascq", "roubaix", "tourcoing",
+            "marcq-en-baroeul", "lambersart", "la madeleine", "loos", "lomme", "lezennes",
+            "ronchin", "seclin", "wasquehal", "croix", "mons-en-baroeul", "hellemmes",
+            "euralille", "marquette-lez-lille", "wambrechies", "faches-thumesnil"]
+  paris:
+    libelle: "Paris"
+    adzuna_where: "Paris"
+    departements: ["75"]
+    lat: 48.8566
+    lon: 2.3522
+    alias: ["paris", "la defense", "puteaux", "courbevoie", "nanterre",
+            "boulogne-billancourt", "issy-les-moulineaux", "levallois-perret",
+            "neuilly-sur-seine", "saint-denis", "montrouge", "ivry-sur-seine"]
+
+# Les mots-clés, contrats et salons Discord de chaque personne sont dans profiles.yaml.
+
+sources:
+  adzuna: false
+  email_alerts: false                  # true une fois IMAP_* ajoutés dans les secrets GitHub (boîte d'alertes dédiée)
+  labonnealternance: false             # passer à true une fois LBA_API_KEY rempli dans .env
+  carrieres: true                      # pages carrières (API publiques Greenhouse, Lever…), voir plus bas
+
+labonnealternance:
+  rayon_km: 30                         # arrondi par l'API à 10, 30, 60 ou 100
+  romes:                               # codes métier ROME (à vérifier sur France Travail « métierscope »)
+    - M1805                            # Études et développement informatique (data engineer, dév.)
+    - M1403                            # Études et prospectives socio-économiques (data analyst)
+    - M1802                            # Expertise et support en systèmes d'information (BI)
+
+email_alerts:
+  jours: 3                             # relit les mails des N derniers jours (doublons écartés par la base)
+
+sante:
+  silence_max_heures: 48               # alerte #bot-logs si un expéditeur attendu se tait plus longtemps
+  expediteurs: []                      # liste vide : pas de surveillance des mails
+
+# Page web perso (voir src/jobbot/site.py) : réécrit offres.js à chaque passage du profil `profil`.
+# `dossier` = dossier de la page sur le VPS (relatif à la racine du bot, ou chemin absolu).
+site:
+  profil: alternance-data
+  dossier: ..                          # racine du dépôt (là où est index.html), voir .github/workflows/bot.yml
+  score_proche: 60                     # score ≥ → affichées d'emblée ; en dessous : « Voir N autres offres »
+  conserver_jours: 60
+  git_push: true                       # true : `dossier` est un clone git de la page, offres.js y est poussé
+
+notifications:
+  discord: false                       # pas de Discord : la page web est la sortie
+  ntfy: false
+  max_par_execution: 30                # garde-fou anti-spam (messages individuels)
+  recap_a_partir_de: 8                 # ≥ N offres pour un profil dans un passage → un récapitulatif
+  max_par_recap: 60                    # offres au plus dans un récapitulatif (la suite au passage suivant)
+
+# Pages carrières d'entreprises ciblées (API publiques de leur outil de recrutement, sans clé).
+# ats : greenhouse | lever | ashby | workable | recruitee | smartrecruiters
+# id  : identifiant de l'entreprise dans l'outil (dans l'URL de sa page offres).
+# Liste vérifiée le 2026-11-18 (offres à Paris/Lille présentes). Ajouter une ligne = une entreprise.
+carrieres:
+  intervalle_minutes: 60               # au plus un passage par heure
+  entreprises:
+    # --- Lille / métropole ---
+    - {nom: Exotec, ats: workable, id: exotec}                    # Croix, robotique
+    - {nom: Kiabi, ats: smartrecruiters, id: kiabi}               # Hem / Lille
+    # --- Paris : data, conseil data, ESN ---
+    - {nom: Artefact, ats: greenhouse, id: artefact}
+    - {nom: Ekimetrics, ats: lever, id: ekimetrics}
+    - {nom: Theodo, ats: lever, id: theodo}
+    - {nom: SFEIR, ats: lever, id: sfeir}
+    - {nom: Devoteam, ats: smartrecruiters, id: devoteam}
+    - {nom: Dataiku, ats: greenhouse, id: dataiku}
+    - {nom: Datadog, ats: greenhouse, id: datadog}
+    - {nom: Algolia, ats: greenhouse, id: algolia}
+    # --- Paris : scale-ups ---
+    - {nom: Mirakl, ats: greenhouse, id: mirakl}
+    - {nom: Doctolib, ats: ashby, id: doctolib}
+    - {nom: Alan, ats: ashby, id: alan}
+    - {nom: Back Market, ats: ashby, id: backmarket}
+    - {nom: Qonto, ats: ashby, id: qonto}
+    - {nom: Pennylane, ats: ashby, id: pennylane}
+    - {nom: Ledger, ats: ashby, id: ledger}
+    - {nom: Malt, ats: lever, id: malt}
+    - {nom: Swile, ats: lever, id: swile}
+    - {nom: Vestiaire Collective, ats: lever, id: vestiairecollective}
+    - {nom: Younited, ats: lever, id: younited}
+    - {nom: Contentsquare, ats: lever, id: contentsquare}
+    - {nom: BlaBlaCar, ats: lever, id: blablacar}
+    - {nom: Brevo, ats: lever, id: brevo}
+    - {nom: Heetch, ats: lever, id: heetch}
+    - {nom: Withings, ats: workable, id: withings}
+    - {nom: Matera, ats: recruitee, id: matera}
+    - {nom: Believe, ats: smartrecruiters, id: believe}
