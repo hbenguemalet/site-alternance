@@ -43,7 +43,7 @@
   var offres = [];
   (DATA.meilleures || []).forEach(function (o) { offres.push(Object.assign({ proche: true }, o)); });
   (DATA.autres || []).forEach(function (o) { offres.push(Object.assign({ proche: false }, o)); });
-  offres.forEach(function (o) { o.type = typeEmployeur(o); o.ville = ville(o); });
+  offres.forEach(function (o) { o.type = typeEmployeur(o); o.ville = ville(o); o.contrat = o.contrat || "alternance"; });
 
   // ---------- nouveautés depuis la dernière visite ----------
   // Une « visite » commence après 30 min d'absence : recharger la page ne fait pas
@@ -63,7 +63,7 @@
   sauver();
 
   // ---------- état de l'écran ----------
-  var vue = "trier", filtre = { ville: "", type: "", rse: false, q: "" }, voirTout = false;
+  var vue = "trier", filtre = { ville: "", type: "", contrat: "", rse: false, q: "" }, voirTout = false;
 
   function $(id) { return document.getElementById(id); }
   function el(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
@@ -77,6 +77,7 @@
   function passeFiltres(o) {
     if (filtre.ville && o.ville !== filtre.ville) return false;
     if (filtre.type && o.type !== filtre.type) return false;
+    if (filtre.contrat && o.contrat !== filtre.contrat) return false;
     if (filtre.rse && !o.etoile) return false;
     var q = norm(filtre.q);
     return !q || norm(o.titre + " " + o.entreprise + " " + o.lieu).indexOf(q) >= 0;
@@ -147,6 +148,7 @@
     var li = el("li", "s-offre" + (nouvelles[o.url] && s === "trier" ? " est-nouvelle" : ""));
     var tete = el("div", "s-tete");
     if (nouvelles[o.url]) tete.appendChild(el("span", "a-chip a-chip--good", "Nouveau"));
+    tete.appendChild(el("span", "a-chip", { alternance: "Alternance", cdi: "CDI", cdd: "CDD" }[o.contrat] || o.contrat));
     if (o.etoile) tete.appendChild(el("span", "a-chip a-chip--good", "★ Data"));
     tete.appendChild(el("span", "a-chip", { entreprise: "Entreprise", esn: "ESN · Conseil", public: "Public" }[o.type]));
     if (o.salaire) tete.appendChild(el("span", "a-chip", o.salaire));
@@ -232,7 +234,7 @@
     if (!liste.length) {
       var vide = el("li", "s-vide");
       var mini = el("img", "s-mini"); mini.src = "bot.svg"; mini.alt = ""; vide.appendChild(mini);
-      var filtres = filtre.ville || filtre.type || filtre.rse || filtre.q;
+      var filtres = filtre.ville || filtre.type || filtre.contrat || filtre.rse || filtre.q;
       vide.appendChild(el("strong", null, filtres ? "Aucune offre avec ces filtres" : VIDES[vue][0]));
       vide.appendChild(document.createTextNode(filtres ? "Enlève un filtre pour en voir plus." : VIDES[vue][1]));
       ol.appendChild(vide);
@@ -288,7 +290,7 @@
       });
     });
   }
-  groupe("ville"); groupe("type");
+  groupe("ville"); groupe("type"); groupe("contrat");
   $("f-rse").addEventListener("click", function () { filtre.rse = !filtre.rse; this.setAttribute("aria-pressed", filtre.rse); afficher(); });
   $("s-cherche").addEventListener("input", function (e) { filtre.q = e.target.value; afficher(); });
   $("s-plus-btn").addEventListener("click", function () { voirTout = true; afficher(); });

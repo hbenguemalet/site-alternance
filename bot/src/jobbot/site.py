@@ -67,7 +67,7 @@ def infos(o: Offer) -> list[str]:
 def entry(o: Offer, v: Verdict, now: datetime) -> dict:
     return {
         "titre": o.title, "entreprise": o.company or "", "lieu": o.location or "", "url": o.url,
-        "etoile": bool(RX_ETOILE.search(o.title)), "salaire": o.salary or "",
+        "contrat": o.contract or "", "etoile": bool(RX_ETOILE.search(o.title)), "salaire": o.salary or "",
         "site": SITES.get(o.source, o.source.capitalize()), "pourquoi": [], "note": None,
         "infos": infos(o), "score": v.score, "vu": now.isoformat(timespec="seconds"),
         "texte": " ".join((o.fiche or o.description or "").split())[:6000],

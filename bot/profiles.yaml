@@ -32,7 +32,7 @@ profils:
       Alternance en data / SQL : data analyst, data engineer, BI, analytics engineer.
     actif: true
     villes: [lille, paris]
-    contrats: [alternance]
+    contrats: [alternance, cdi, cdd]
     contrat_inconnu: rejeter
     inclure:
       - '\bdata(?!base)'                 # data, Big Data, Dataops, Datascientist… (pas « database »)
