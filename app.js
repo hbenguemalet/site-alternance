@@ -39,11 +39,30 @@
     if (RX_ESN.test(o.entreprise)) return "esn";
     return "entreprise";
   }
-  function ville(o) { return /lille|roubaix|tourcoing|villeneuve|marcq|croix|lomme|ronchin|wasquehal|lambersart|loos|seclin|madeleine|\b59\b/i.test(o.lieu) ? "lille" : "paris"; }
+  var NOMS_VILLES = {};
+  function ville(o) {
+    var l = o.lieu || "";
+    var cle, nom;
+    if (/paris|\b75\d{3}\b|la d[ée]fense|issy|boulogne-billancourt|levallois|nanterre|saint-denis|montreuil|courbevoie|puteaux/i.test(l)) { cle = "paris"; nom = "Paris"; }
+    else if (/lille|roubaix|tourcoing|villeneuve|marcq|croix\b|lomme|ronchin|wasquehal|lambersart|loos|seclin|madeleine|lezennes|\b59\d{3}\b/i.test(l)) { cle = "lille"; nom = "Lille"; }
+    else {
+      nom = l.split(",")[0].replace(/\s*\(.*\)/, "").trim();
+      if (!nom || /france|remote|t[ée]l[ée]travail/i.test(nom)) { nom = "Autre / non précisé"; }
+      cle = norm(nom);
+    }
+    NOMS_VILLES[cle] = nom;
+    return cle;
+  }
+  function contrat(o) {
+    var c = (o.contrat || "") + " " + (o.titre || "");
+    if (/alternan|apprenti|professionnalisation|work.?study|co-?op/i.test(c)) return "alternance";
+    if (/cdd|fixed|temporary|temporaire|int[ée]rim|mission/i.test(c)) return "cdd";
+    return "cdi";
+  }
   var offres = [];
   (DATA.meilleures || []).forEach(function (o) { offres.push(Object.assign({ proche: true }, o)); });
   (DATA.autres || []).forEach(function (o) { offres.push(Object.assign({ proche: false }, o)); });
-  offres.forEach(function (o) { o.type = typeEmployeur(o); o.ville = ville(o); o.contrat = o.contrat || "alternance"; });
+  offres.forEach(function (o) { o.type = typeEmployeur(o); o.ville = ville(o); o.contrat = contrat(o); });
 
   // ---------- nouveautés depuis la dernière visite ----------
   // Une « visite » commence après 30 min d'absence : recharger la page ne fait pas
@@ -290,6 +309,17 @@
       });
     });
   }
+  // pastilles de ville construites d'après les offres, avec leur nombre
+  var comptes = {}, comptesContrat = {};
+  offres.forEach(function (o) { comptes[o.ville] = (comptes[o.ville] || 0) + 1; comptesContrat[o.contrat] = (comptesContrat[o.contrat] || 0) + 1; });
+  var zoneVilles = document.getElementById("f-villes");
+  Object.keys(comptes).sort(function (a, b) { return comptes[b] - comptes[a]; }).forEach(function (k) {
+    var b = el("button", "a-chip s-filtre", NOMS_VILLES[k] + " (" + comptes[k] + ")");
+    b.dataset.ville = k; b.setAttribute("aria-pressed", "false"); zoneVilles.appendChild(b);
+  });
+  document.querySelectorAll(".s-filtre[data-contrat]").forEach(function (b) {
+    var k = b.dataset.contrat; b.textContent += " (" + (k ? (comptesContrat[k] || 0) : offres.length) + ")";
+  });
   groupe("ville"); groupe("type"); groupe("contrat");
   $("f-rse").addEventListener("click", function () { filtre.rse = !filtre.rse; this.setAttribute("aria-pressed", filtre.rse); afficher(); });
   $("s-cherche").addEventListener("input", function (e) { filtre.q = e.target.value; afficher(); });
