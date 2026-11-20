@@ -3,6 +3,46 @@ window.STAGES = {
  "date": "2026-11-20",
  "meilleures": [
   {
+   "titre": "Data Analyst Junior en Alternance H/F",
+   "entreprise": "Paris - 75",
+   "lieu": "Paris - 75",
+   "url": "https://www.hellowork.com/fr-fr/emplois/77025365.html",
+   "contrat": "Alternance",
+   "etoile": true,
+   "salaire": "1 823,03 € / mois",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-20T11:30:47+00:00",
+   "premiere": "2026-11-20T11:30:47+00:00"
+  },
+  {
+   "titre": "Business Data Analyste H/F",
+   "entreprise": "Rhapsodie Gestion",
+   "lieu": "Paris - 75",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80406487.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "40 000 - 60 000 € / an",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-20T11:30:47+00:00",
+   "premiere": "2026-11-20T11:30:47+00:00"
+  },
+  {
    "titre": "CDI - Context & Analytics Engineer Manager - Paris",
    "entreprise": "Artefact",
    "lieu": "9th arrondissement of Paris, 75009, Paris, France",
@@ -19,7 +59,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T20:32:09+00:00"
   },
   {
@@ -39,7 +79,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -59,7 +99,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -79,7 +119,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -99,7 +139,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -119,7 +159,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -139,7 +179,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -159,8 +199,28 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
+  },
+  {
+   "titre": "Apprenticeship - Data Office - Chanel Europe - January 2027 - M H/F",
+   "entreprise": "Chanel",
+   "lieu": "Paris - 75",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83449031.html",
+   "contrat": "Alternance",
+   "etoile": false,
+   "salaire": "492,22 - 1 823,03 € / mois",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 60,
+   "vu": "2026-11-20T11:30:47+00:00",
+   "premiere": "2026-11-20T11:30:47+00:00"
   },
   {
    "titre": "Data Platform Manager (h/f/nb) - CDI",
@@ -179,7 +239,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -199,7 +259,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -219,7 +279,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -239,7 +299,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -259,7 +319,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   }
  ],
@@ -281,7 +341,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -301,7 +361,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -321,7 +381,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-20T02:18:31+00:00"
   },
   {
@@ -341,7 +401,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -361,7 +421,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -381,7 +441,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -401,7 +461,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -421,7 +481,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -441,7 +501,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -461,7 +521,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -481,7 +541,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -501,7 +561,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -521,7 +581,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -541,7 +601,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -561,7 +621,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -581,7 +641,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -601,7 +661,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-20T02:18:31+00:00",
+   "vu": "2026-11-20T11:30:47+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   }
  ],
