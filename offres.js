@@ -1,6 +1,6 @@
 /* Généré par le bot d'offres (profil alternance-data) — ne pas modifier à la main. */
 window.STAGES = {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "meilleures": [
   {
    "titre": "CDI - Context & Analytics Engineer Manager - Paris",
@@ -19,7 +19,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T20:32:09+00:00"
   },
   {
@@ -39,7 +39,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -59,7 +59,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -79,7 +79,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -99,7 +99,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -119,7 +119,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -139,7 +139,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -159,7 +159,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -179,7 +179,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -199,7 +199,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -219,7 +219,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -239,7 +239,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -259,7 +259,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   }
  ],
@@ -281,7 +281,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -301,8 +301,28 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
+  },
+  {
+   "titre": "CDI - Senior Platform Engineer - Paris",
+   "entreprise": "Artefact",
+   "lieu": "9th arrondissement of Paris, 75009, Paris, France",
+   "url": "https://job-boards.greenhouse.io/artefact/jobs/8951734002",
+   "contrat": "",
+   "etoile": false,
+   "salaire": "",
+   "site": "Greenhouse",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : 2027",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 40,
+   "vu": "2026-11-20T02:18:31+00:00",
+   "premiere": "2026-11-20T02:18:31+00:00"
   },
   {
    "titre": "CDI - Product Engineer Manager - Paris",
@@ -321,7 +341,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -341,7 +361,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -361,7 +381,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -381,7 +401,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -401,7 +421,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -421,7 +441,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -441,7 +461,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -461,7 +481,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -481,7 +501,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -501,7 +521,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -521,7 +541,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -541,7 +561,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -561,7 +581,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -581,7 +601,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-19T20:32:09+00:00",
+   "vu": "2026-11-20T02:18:31+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   }
  ],
