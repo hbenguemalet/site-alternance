@@ -3,6 +3,246 @@ window.STAGES = {
  "date": "2026-11-21",
  "meilleures": [
   {
+   "titre": "Data Engineer Snowflake Dbt Confirmé H/F",
+   "entreprise": "Seenovate",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/77346515.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "48 000 - 55 000 € / an",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 75,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
+   "titre": "Data Engineer H/F",
+   "entreprise": "Atos",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85725715.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
+   "titre": "Data Engineer H/F",
+   "entreprise": "Ippon Technologies",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82728335.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
+   "titre": "Data Engineer H/F",
+   "entreprise": "ALTEN",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85581105.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
+   "titre": "Data Engineer Databricks H/F",
+   "entreprise": "Meritis",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/70004493.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
+   "titre": "Senior Data Engineer H/F",
+   "entreprise": "Astek",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79588147.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "35 000 € / an",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
+   "titre": "Data Engineer H/F",
+   "entreprise": "Scalian",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/71833412.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "38 000 - 45 000 € / an",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
+   "titre": "Data Engineer H/F",
+   "entreprise": "Oney",
+   "lieu": "Croix - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82026894.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
+   "titre": "Data Engineer H/F",
+   "entreprise": "Proxiad",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84704616.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "38 000 - 44 000 € / an",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
+   "titre": "Data Analyst H/F",
+   "entreprise": "Finaïa",
+   "lieu": "Paris 8e - 75",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85540860.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "45 000 - 60 000 € / an",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
+   "titre": "Business & Data Analyst - Digital Purchases Team H/F",
+   "entreprise": "Data Impact by NielsenIQ",
+   "lieu": "Paris - 75",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85735577.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
+   "titre": "Senior Data Analyst - Scientist - M - W H/F",
+   "entreprise": "Manomano",
+   "lieu": "Paris 17e - 75",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85747961.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
    "titre": "Data Analyst Junior en Alternance H/F",
    "entreprise": "Paris - 75",
    "lieu": "Paris - 75",
@@ -19,7 +259,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-20T11:30:47+00:00"
   },
   {
@@ -39,7 +279,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-20T11:30:47+00:00"
   },
   {
@@ -59,7 +299,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T20:32:09+00:00"
   },
   {
@@ -79,7 +319,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -99,7 +339,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -119,7 +359,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -139,7 +379,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -159,7 +399,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -179,7 +419,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -199,8 +439,48 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
+  },
+  {
+   "titre": "Ingénieur Data Confirmé H/F",
+   "entreprise": "Inetum",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85725908.html",
+   "contrat": "CDI",
+   "etoile": false,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 60,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
+   "titre": "Ingénieur Data H/F",
+   "entreprise": "LR Technologies Groupe",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/76709485.html",
+   "contrat": "CDI",
+   "etoile": false,
+   "salaire": "42 000 - 48 000 € / an",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 60,
+   "vu": "2026-11-21T09:44:34+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
    "titre": "CTO - CDI Paris - Theodo Data & IA",
@@ -219,7 +499,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-20T20:10:54+00:00"
   },
   {
@@ -239,7 +519,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-20T11:30:47+00:00"
   },
   {
@@ -259,7 +539,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -279,7 +559,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -299,7 +579,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -319,7 +599,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -339,7 +619,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   }
  ],
@@ -361,7 +641,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -381,7 +661,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -401,7 +681,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-20T02:18:31+00:00"
   },
   {
@@ -421,7 +701,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -441,7 +721,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -461,7 +741,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -481,7 +761,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -501,7 +781,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -521,7 +801,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -541,7 +821,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -561,7 +841,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -581,7 +861,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -601,7 +881,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -621,7 +901,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -641,7 +921,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -661,7 +941,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -681,7 +961,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-21T01:29:38+00:00",
+   "vu": "2026-11-21T09:44:34+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   }
  ],
