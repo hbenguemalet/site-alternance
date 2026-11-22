@@ -19,8 +19,108 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
+  },
+  {
+   "titre": "Data Engineer H/F",
+   "entreprise": "Pixie Services France",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84581781.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-22T11:15:53+00:00",
+   "premiere": "2026-11-22T11:15:53+00:00"
+  },
+  {
+   "titre": "Data Engineer Gcp H/F",
+   "entreprise": "LR Technologies Nord",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82597276.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "40 000 - 60 000 € / an",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-22T11:15:53+00:00",
+   "premiere": "2026-11-22T11:15:53+00:00"
+  },
+  {
+   "titre": "Data Engineer Gcp H/F",
+   "entreprise": "Mantu",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83883189.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-22T11:15:53+00:00",
+   "premiere": "2026-11-22T11:15:53+00:00"
+  },
+  {
+   "titre": "Data Engineer Flux H/F",
+   "entreprise": "Viveris.",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85315323.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-22T11:15:53+00:00",
+   "premiere": "2026-11-22T11:15:53+00:00"
+  },
+  {
+   "titre": "Data Engineer H/F",
+   "entreprise": "Groupe SII",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/65572647.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "38 000 - 45 000 € / an",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-22T11:15:53+00:00",
+   "premiere": "2026-11-22T11:15:53+00:00"
   },
   {
    "titre": "Data Engineer H/F",
@@ -39,7 +139,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
@@ -59,7 +159,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
@@ -79,7 +179,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
@@ -99,7 +199,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
@@ -119,7 +219,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
@@ -139,7 +239,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
@@ -159,7 +259,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
@@ -179,7 +279,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
@@ -199,7 +299,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
@@ -219,7 +319,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
@@ -239,7 +339,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
@@ -259,7 +359,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-20T11:30:47+00:00"
   },
   {
@@ -279,7 +379,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-20T11:30:47+00:00"
   },
   {
@@ -299,7 +399,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T20:32:09+00:00"
   },
   {
@@ -319,7 +419,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -339,7 +439,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -359,7 +459,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -379,7 +479,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -399,7 +499,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -419,7 +519,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -439,7 +539,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -459,7 +559,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T17:28:10+00:00"
   },
   {
@@ -479,7 +579,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
@@ -499,7 +599,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-21T09:44:34+00:00"
   },
   {
@@ -519,7 +619,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-20T20:10:54+00:00"
   },
   {
@@ -539,7 +639,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-20T11:30:47+00:00"
   },
   {
@@ -559,7 +659,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -579,7 +679,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -599,7 +699,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -619,7 +719,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -639,7 +739,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   }
  ],
@@ -661,7 +761,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -681,7 +781,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -701,7 +801,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-20T02:18:31+00:00"
   },
   {
@@ -721,7 +821,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -741,7 +841,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -761,7 +861,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -781,7 +881,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -801,7 +901,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -821,7 +921,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -841,7 +941,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -861,7 +961,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -881,7 +981,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -901,7 +1001,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -921,7 +1021,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -941,7 +1041,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -961,7 +1061,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   },
   {
@@ -981,7 +1081,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-22T03:08:06+00:00",
+   "vu": "2026-11-22T11:15:53+00:00",
    "premiere": "2026-11-19T17:11:07+00:00"
   }
  ],
