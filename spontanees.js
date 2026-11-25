@@ -42,6 +42,15 @@
     { id: "talan", n: "Talan", v: "Lille", s: "ESN · Conseil", q: "Conseil data, BI et IA.", site: "https://www.talan.com/fr" },
     { id: "onepoint", n: "Onepoint", v: "Lille", s: "ESN · Conseil", q: "Conseil et data.", site: "https://www.groupeonepoint.com" },
     { id: "cgi", n: "CGI", v: "Lille", s: "ESN · Conseil", q: "Missions BI pour de grands comptes.", site: "https://www.cgi.com/france" },
+    // --- Startups et écosystème lillois ---
+    { id: "sporteasy", n: "SportEasy", v: "Lille", s: "Startup", q: "Application de gestion d'équipes sportives : usage produit, abonnements, croissance.", site: "https://www.sporteasy.net" },
+    { id: "cleverconnect", n: "CleverConnect", v: "Lille", s: "Startup", q: "Tech du recrutement : données de campagnes et de candidatures à grande échelle.", site: "https://www.cleverconnect.com" },
+    { id: "mobivia", n: "Mobivia", v: "Villeneuve-d'Ascq", s: "Startup", q: "Groupe auto (Norauto, Midas) avec un pôle data et digital qui fonctionne comme une scale-up.", site: "https://www.mobivia.com" },
+    { id: "worldline", n: "Worldline", v: "Seclin / Lille", s: "Startup", q: "Paiement : volumes de transactions, détection de fraude, reporting.", site: "https://worldline.com" },
+    { id: "euratech", n: "EuraTechnologies", v: "Lille", s: "Écosystème startups", q: "Incubateur de plus de 200 startups : leur annuaire sert de liste pour des candidatures ciblées.", site: "https://www.euratechnologies.com" },
+    { id: "plaineimages", n: "Plaine Images", v: "Tourcoing", s: "Écosystème startups", q: "Pôle image et numérique (jeux, médias, animation) : studios et startups à contacter.", site: "https://www.plaine-images.fr" },
+    { id: "blanchemaille", n: "Blanchemaille", v: "Roubaix", s: "Écosystème startups", q: "Pôle mode et e-commerce : marques et startups data / retail.", site: "https://www.blanchemaille.com" },
+    { id: "lillefrenchtech", n: "Lille French Tech", v: "Lille", s: "Écosystème startups", q: "Communauté des startups de la métropole : annuaire et offres.", site: "https://www.lillefrenchtech.com" },
     // --- Public ---
     { id: "mel", n: "Métropole Européenne de Lille", v: "Lille", s: "Public", q: "Données de territoire, mobilité, open data.", site: "https://www.lillemetropole.fr" },
     { id: "chulille", n: "CHU de Lille", v: "Lille", s: "Public", q: "Données de santé : pilotage et statistiques hospitalières.", site: "https://www.chu-lille.fr" },
