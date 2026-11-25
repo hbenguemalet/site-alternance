@@ -19,8 +19,11 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-25T12:47:05+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-25T12:47:05+00:00",
+   "outils": [
+    "Power BI"
+   ]
   },
   {
    "titre": "Data Analytics Engineer H/F",
@@ -39,8 +42,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-25T12:47:05+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-25T12:47:05+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analytics Engineer Confirmé H/F",
@@ -59,8 +63,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst Senior SQL - Snowflake - CRM & Analytics H/F",
@@ -79,8 +84,12 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": [
+    "SQL",
+    "Snowflake"
+   ]
   },
   {
    "titre": "Data Engineer Gcp - Python H/F",
@@ -99,8 +108,12 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-23T14:39:56+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-23T14:39:56+00:00",
+   "outils": [
+    "Python",
+    "GCP"
+   ]
   },
   {
    "titre": "Analytics Engineer - Data Engineer H/F",
@@ -119,8 +132,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-23T08:58:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-23T08:58:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Engineer Snowflake Dbt Confirmé H/F",
@@ -139,8 +153,12 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": [
+    "dbt",
+    "Snowflake"
+   ]
   },
   {
    "titre": "Data Engineer H/F",
@@ -159,8 +177,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-25T14:34:15+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-25T14:34:15+00:00",
+   "outils": []
   },
   {
    "titre": "Senior Data Analyst H/F",
@@ -179,8 +198,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-25T12:47:05+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-25T12:47:05+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst H/F",
@@ -199,8 +219,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-25T12:47:05+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-25T12:47:05+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst H/F",
@@ -219,8 +240,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst H/F",
@@ -239,8 +261,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst H/F",
@@ -259,8 +282,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Senior Data Analyst - Scientist H/F",
@@ -279,8 +303,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst H/F",
@@ -299,8 +324,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst H/F",
@@ -319,8 +345,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Lead Data Analyst & Engineering H/F",
@@ -339,8 +366,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst Analyste de Données H/F",
@@ -359,8 +387,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst Senior H/F",
@@ -379,8 +408,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Alternance - Data Analyst Assistant - Septembre 2026 H/F",
@@ -399,8 +429,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Engineer Cloud Confirmé - Senior H/F",
@@ -419,8 +450,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Chargé d'Etudes Data Analyste (H/F)-Alternance",
@@ -439,8 +471,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Lead Data Engineer - le Poste Fondateur de notre Démarche Data H/F",
@@ -459,8 +492,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst Budgétaire « Emplois et Masse Salariale » H/F",
@@ -479,8 +513,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-23T08:58:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-23T08:58:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst - Data Scientist H/F",
@@ -499,8 +534,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-23T08:58:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-23T08:58:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst H/F",
@@ -519,8 +555,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-23T08:58:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-23T08:58:59+00:00",
+   "outils": []
   },
   {
    "titre": "Lead Data Engineer H/F",
@@ -539,8 +576,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-23T08:58:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-23T08:58:59+00:00",
+   "outils": []
   },
   {
    "titre": "Senior Data Engineer Databricks H/F",
@@ -559,8 +597,11 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-23T08:58:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-23T08:58:59+00:00",
+   "outils": [
+    "Databricks"
+   ]
   },
   {
    "titre": "Data Engineer H/F",
@@ -579,8 +620,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-23T08:58:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-23T08:58:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Engineer - Machine Learning - # H/F",
@@ -599,8 +641,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-23T08:58:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-23T08:58:59+00:00",
+   "outils": []
   },
   {
    "titre": "Analytics Engineer H/F",
@@ -619,8 +662,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-23T08:58:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-23T08:58:59+00:00",
+   "outils": []
   },
   {
    "titre": "Lead Data Engineer - Lille H/F",
@@ -639,8 +683,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-23T08:58:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-23T08:58:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst Confirmé H/F",
@@ -659,8 +704,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-23T08:58:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-23T08:58:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Engineer H/F",
@@ -679,8 +725,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-22T11:15:53+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-22T11:15:53+00:00",
+   "outils": []
   },
   {
    "titre": "Data Engineer Gcp H/F",
@@ -699,8 +746,11 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-22T11:15:53+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-22T11:15:53+00:00",
+   "outils": [
+    "GCP"
+   ]
   },
   {
    "titre": "Data Engineer Gcp H/F",
@@ -719,8 +769,11 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-22T11:15:53+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-22T11:15:53+00:00",
+   "outils": [
+    "GCP"
+   ]
   },
   {
    "titre": "Data Engineer Flux H/F",
@@ -739,8 +792,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-22T11:15:53+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-22T11:15:53+00:00",
+   "outils": []
   },
   {
    "titre": "Data Engineer H/F",
@@ -759,8 +813,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-22T11:15:53+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-22T11:15:53+00:00",
+   "outils": []
   },
   {
    "titre": "Data Engineer H/F",
@@ -779,8 +834,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": []
   },
   {
    "titre": "Data Engineer H/F",
@@ -799,8 +855,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": []
   },
   {
    "titre": "Data Engineer H/F",
@@ -819,8 +876,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": []
   },
   {
    "titre": "Data Engineer Databricks H/F",
@@ -839,8 +897,11 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": [
+    "Databricks"
+   ]
   },
   {
    "titre": "Senior Data Engineer H/F",
@@ -859,8 +920,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": []
   },
   {
    "titre": "Data Engineer H/F",
@@ -879,8 +941,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": []
   },
   {
    "titre": "Data Engineer H/F",
@@ -899,8 +962,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": []
   },
   {
    "titre": "Data Engineer H/F",
@@ -919,8 +983,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst H/F",
@@ -939,8 +1004,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": []
   },
   {
    "titre": "Business & Data Analyst - Digital Purchases Team H/F",
@@ -959,8 +1025,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": []
   },
   {
    "titre": "Senior Data Analyst - Scientist - M - W H/F",
@@ -980,7 +1047,8 @@ window.STAGES = {
    ],
    "score": 70,
    "vu": "2026-11-24T17:37:59+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": []
   },
   {
    "titre": "Data Analyst Junior en Alternance H/F",
@@ -999,8 +1067,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-20T11:30:47+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-20T11:30:47+00:00",
+   "outils": []
   },
   {
    "titre": "Business Data Analyste H/F",
@@ -1019,8 +1088,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-20T11:30:47+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-20T11:30:47+00:00",
+   "outils": []
   },
   {
    "titre": "CDI - Context & Analytics Engineer Manager - Paris",
@@ -1040,7 +1110,15 @@ window.STAGES = {
    ],
    "score": 70,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T20:32:09+00:00"
+   "premiere": "2026-11-19T20:32:09+00:00",
+   "outils": [
+    "SQL",
+    "Python",
+    "dbt",
+    "BigQuery",
+    "Snowflake",
+    "Databricks"
+   ]
   },
   {
    "titre": "CDI - Senior Context & Analytics Engineer - Paris",
@@ -1060,7 +1138,15 @@ window.STAGES = {
    ],
    "score": 70,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "SQL",
+    "Python",
+    "dbt",
+    "BigQuery",
+    "Snowflake",
+    "Databricks"
+   ]
   },
   {
    "titre": "Lead Data Engineer - CDI Paris - Theodo Data & IA",
@@ -1080,7 +1166,13 @@ window.STAGES = {
    ],
    "score": 70,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "Python",
+    "Airflow",
+    "Spark",
+    "ETL"
+   ]
   },
   {
    "titre": "Cloud & Data Engineer",
@@ -1100,7 +1192,17 @@ window.STAGES = {
    ],
    "score": 70,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "SQL",
+    "Python",
+    "dbt",
+    "Snowflake",
+    "Databricks",
+    "ETL",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Data Engineer Confirmé(e)",
@@ -1120,7 +1222,21 @@ window.STAGES = {
    ],
    "score": 70,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "SQL",
+    "Python",
+    "Looker",
+    "dbt",
+    "Airflow",
+    "BigQuery",
+    "Snowflake",
+    "Spark",
+    "Databricks",
+    "ETL",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Data Engineer expérimenté(e)",
@@ -1140,7 +1256,20 @@ window.STAGES = {
    ],
    "score": 70,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "SQL",
+    "Python",
+    "dbt",
+    "Airflow",
+    "BigQuery",
+    "Snowflake",
+    "Databricks",
+    "ETL",
+    "Azure",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Data Engineer GCP",
@@ -1160,7 +1289,18 @@ window.STAGES = {
    ],
    "score": 70,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "SQL",
+    "Python",
+    "dbt",
+    "BigQuery",
+    "Snowflake",
+    "Databricks",
+    "ETL",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Lead Data Engineer GCP",
@@ -1180,7 +1320,18 @@ window.STAGES = {
    ],
    "score": 70,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "SQL",
+    "Python",
+    "dbt",
+    "BigQuery",
+    "Snowflake",
+    "Databricks",
+    "ETL",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Data Ingénieur Gcp H/F",
@@ -1199,8 +1350,11 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": [
+    "GCP"
+   ]
   },
   {
    "titre": "Ingénieur·e Data H/F",
@@ -1219,8 +1373,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Platform Manager (h/f/nb) - CDI",
@@ -1240,7 +1395,8 @@ window.STAGES = {
    ],
    "score": 60,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-24T17:37:59+00:00"
+   "premiere": "2026-11-24T17:37:59+00:00",
+   "outils": []
   },
   {
    "titre": "Data Officer H/F",
@@ -1259,8 +1415,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-23T08:58:59+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-23T08:58:59+00:00",
+   "outils": []
   },
   {
    "titre": "Développeur·se Data & IA – Alternance",
@@ -1280,7 +1437,8 @@ window.STAGES = {
    ],
    "score": 60,
    "vu": "2026-11-24T17:37:59+00:00",
-   "premiere": "2026-11-21T17:28:10+00:00"
+   "premiere": "2026-11-21T17:28:10+00:00",
+   "outils": []
   },
   {
    "titre": "Ingénieur Data Confirmé H/F",
@@ -1299,8 +1457,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": []
   },
   {
    "titre": "Ingénieur Data H/F",
@@ -1319,8 +1478,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-21T09:44:34+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-21T09:44:34+00:00",
+   "outils": []
   },
   {
    "titre": "CTO - CDI Paris - Theodo Data & IA",
@@ -1340,7 +1500,12 @@ window.STAGES = {
    ],
    "score": 60,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-20T20:10:54+00:00"
+   "premiere": "2026-11-20T20:10:54+00:00",
+   "outils": [
+    "Snowflake",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Apprenticeship - Data Office - Chanel Europe - January 2027 - M H/F",
@@ -1359,8 +1524,9 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-20T11:30:47+00:00"
+   "vu": "2026-11-25T15:04:03+00:00",
+   "premiere": "2026-11-20T11:30:47+00:00",
+   "outils": []
   },
   {
    "titre": "Data Platform Manager (h/f/nb) - CDI",
@@ -1380,7 +1546,8 @@ window.STAGES = {
    ],
    "score": 60,
    "vu": "2026-11-24T05:58:52+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": []
   },
   {
    "titre": "Tech Lead Google Cloud - CDI Paris - Theodo Data & IA",
@@ -1400,7 +1567,11 @@ window.STAGES = {
    ],
    "score": 60,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "BigQuery",
+    "GCP"
+   ]
   },
   {
    "titre": "Data Architect GCP",
@@ -1420,7 +1591,15 @@ window.STAGES = {
    ],
    "score": 60,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "dbt",
+    "BigQuery",
+    "Snowflake",
+    "Databricks",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Senior Data Platform Engineer",
@@ -1440,7 +1619,15 @@ window.STAGES = {
    ],
    "score": 60,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "SQL",
+    "Python",
+    "dbt",
+    "Airflow",
+    "Snowflake",
+    "AWS"
+   ]
   },
   {
    "titre": "Fraud Manager - Data & IA (F/H)",
@@ -1460,7 +1647,11 @@ window.STAGES = {
    ],
    "score": 60,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "SQL",
+    "Excel"
+   ]
   }
  ],
  "autres": [
@@ -1482,7 +1673,16 @@ window.STAGES = {
    ],
    "score": 45,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "Python",
+    "dbt",
+    "BigQuery",
+    "Snowflake",
+    "Databricks",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Software Engineer Python / FastAPI",
@@ -1502,7 +1702,16 @@ window.STAGES = {
    ],
    "score": 45,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "Python",
+    "dbt",
+    "Docker",
+    "Snowflake",
+    "Databricks",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "CDI - Senior Platform Engineer - Paris",
@@ -1522,7 +1731,15 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-20T02:18:31+00:00"
+   "premiere": "2026-11-20T02:18:31+00:00",
+   "outils": [
+    "BigQuery",
+    "Snowflake",
+    "Databricks",
+    "Azure",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "CDI - Product Engineer Manager - Paris",
@@ -1542,7 +1759,10 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "Python"
+   ]
   },
   {
    "titre": "CDI - Senior Product Engineer - Paris",
@@ -1562,7 +1782,10 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "Python"
+   ]
   },
   {
    "titre": "AI Software Engineer / Développeur Augmenté (H/F)",
@@ -1582,7 +1805,16 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "Python",
+    "dbt",
+    "Docker",
+    "Snowflake",
+    "Databricks",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Cloud Architect",
@@ -1602,7 +1834,14 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "dbt",
+    "Snowflake",
+    "Databricks",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Cloud Architect GCP",
@@ -1622,7 +1861,14 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "dbt",
+    "Snowflake",
+    "Databricks",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Cloud Engineer GCP",
@@ -1642,7 +1888,14 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "dbt",
+    "Snowflake",
+    "Databricks",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Développeur(euse) Java confirmé(e)",
@@ -1662,7 +1915,14 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "dbt",
+    "Snowflake",
+    "Databricks",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Développeur(euse) Java expérimenté(e)",
@@ -1682,7 +1942,14 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "dbt",
+    "Snowflake",
+    "Databricks",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Développeur(euse) JavaScript expérimenté(e)",
@@ -1702,7 +1969,14 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "dbt",
+    "Snowflake",
+    "Databricks",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Forward Deployed Engineer – Agentic AI",
@@ -1722,7 +1996,16 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "Python",
+    "dbt",
+    "Docker",
+    "Snowflake",
+    "Databricks",
+    "AWS",
+    "GCP"
+   ]
   },
   {
    "titre": "Growth Operations Apprentice",
@@ -1742,7 +2025,11 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "SQL",
+    "Python"
+   ]
   },
   {
    "titre": "Senior Site Reliability Engineer (SRE)",
@@ -1762,7 +2049,13 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "SQL",
+    "Python",
+    "Snowflake",
+    "AWS"
+   ]
   },
   {
    "titre": "Senior Software Engineer - Paris",
@@ -1782,7 +2075,12 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-25T14:34:15+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "SQL",
+    "Snowflake",
+    "AWS"
+   ]
   },
   {
    "titre": "Credit Strategy Manager (F/H)",
@@ -1802,7 +2100,10 @@ window.STAGES = {
    ],
    "score": 40,
    "vu": "2026-11-23T08:58:59+00:00",
-   "premiere": "2026-11-19T17:11:07+00:00"
+   "premiere": "2026-11-19T17:11:07+00:00",
+   "outils": [
+    "SQL"
+   ]
   }
  ],
  "liens": [
