@@ -11,7 +11,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2323b6ee'/><path d='M8 22V14M14 22V9M20 22V17M26 22V11' stroke='%23fff' stroke-width='3' stroke-linecap='round'/></svg>">
 <script>try{var t=localStorage.getItem("theme:alternance-data-2027:v1");if(!t&&matchMedia("(prefers-color-scheme: dark)").matches)t="dark";if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="stylesheet" href="theme.css?v=4">
-<link rel="stylesheet" href="style.css?v=5">
+<link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
 
@@ -90,10 +90,10 @@
       <p class="s-aide" id="s-aide"></p>
       <label class="s-tri-zone" id="s-tri-zone">Trier :
         <select id="s-tri" class="s-select">
-          <option value="pertinence">Pertinence</option>
+          <option value="compat">Compatibilité avec mon profil</option>
+          <option value="pertinence">Pertinence (bot)</option>
           <option value="recentes">Plus récentes</option>
           <option value="entreprise">Entreprise A → Z</option>
-          <option value="competences">Compétences (les plus accessibles)</option>
         </select>
       </label>
     </div>
@@ -102,7 +102,7 @@
 
     <div class="s-plus" id="s-plus" hidden>
       <button class="a-btn" id="s-plus-btn">Voir les autres offres</button>
-      <p class="s-plus-txt">Ces offres collent moins à ta recherche (intitulé plus général ou domaine voisin).</p>
+      <p class="s-plus-txt" id="s-plus-txt">Ces offres collent moins à ta recherche (intitulé plus général ou domaine voisin).</p>
     </div>
 
     <section class="s-ailleurs">
@@ -147,6 +147,6 @@
 </div>
 
 <script src="offres.js"></script>
-<script src="app.js?v=5"></script>
+<script src="app.js?v=6"></script>
 </body>
 </html>

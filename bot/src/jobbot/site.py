@@ -18,6 +18,7 @@ from pathlib import Path
 
 from jobbot.filters import Verdict
 from jobbot.models import Offer
+from jobbot.signaux import signaux
 
 log = logging.getLogger("jobbot.site")
 
@@ -111,7 +112,8 @@ def update(profil_id: str, retenues: list[tuple[Offer, Verdict]], scfg: dict, ro
 
     seuil = scfg.get("score_proche", 60)
     tri = [{**{k: v for k, v in e.items() if k != "texte"},  # le texte des annonces reste dans le JSON, pas dans la page
-            "outils": outils(f"{e['titre']} {e.get('texte', '')}")}
+            "outils": outils(f"{e['titre']} {e.get('texte', '')}"),
+            "signaux": signaux(e)}
            for e in sorted(gardees.values(), key=lambda e: (e["score"], e["premiere"]), reverse=True)]
     data = {"date": now.date().isoformat(),
             "meilleures": [e for e in tri if e["score"] >= seuil],

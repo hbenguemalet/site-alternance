@@ -19,11 +19,17 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-25T12:47:05+00:00",
    "outils": [
     "Power BI"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Analytics Engineer H/F",
@@ -42,9 +48,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-25T12:47:05+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analytics_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Analytics Engineer Confirmé H/F",
@@ -63,9 +75,17 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analytics_eng",
+    "niveau": "senior",
+    "domaines": [
+     "conseil"
+    ]
+   }
   },
   {
    "titre": "Data Analyst Senior SQL - Snowflake - CRM & Analytics H/F",
@@ -84,12 +104,20 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [
     "SQL",
     "Snowflake"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "senior",
+    "domaines": [
+     "marketing"
+    ]
+   }
   },
   {
    "titre": "Data Engineer Gcp - Python H/F",
@@ -108,12 +136,18 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-23T14:39:56+00:00",
    "outils": [
     "Python",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Analytics Engineer - Data Engineer H/F",
@@ -132,9 +166,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analytics_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer Snowflake Dbt Confirmé H/F",
@@ -153,12 +193,18 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [
     "dbt",
     "Snowflake"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer H/F",
@@ -177,9 +223,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-25T14:34:15+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Senior Data Analyst H/F",
@@ -198,9 +250,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-25T12:47:05+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Analyst H/F",
@@ -219,9 +277,17 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-25T12:47:05+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": [
+     "public"
+    ]
+   }
   },
   {
    "titre": "Data Analyst H/F",
@@ -240,9 +306,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Analyst H/F",
@@ -261,9 +333,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Analyst H/F",
@@ -282,9 +360,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Senior Data Analyst - Scientist H/F",
@@ -303,9 +387,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Analyst H/F",
@@ -324,9 +414,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Analyst H/F",
@@ -345,9 +441,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Lead Data Analyst & Engineering H/F",
@@ -366,9 +468,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Analyst Analyste de Données H/F",
@@ -387,9 +495,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Analyst Senior H/F",
@@ -408,9 +522,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Alternance - Data Analyst Assistant - Septembre 2026 H/F",
@@ -429,9 +549,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "alternance",
+    "role": "analyst",
+    "niveau": "junior",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer Cloud Confirmé - Senior H/F",
@@ -450,9 +576,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Chargé d'Etudes Data Analyste (H/F)-Alternance",
@@ -471,9 +603,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "alternance",
+    "role": "analyst",
+    "niveau": "junior",
+    "domaines": []
+   }
   },
   {
    "titre": "Lead Data Engineer - le Poste Fondateur de notre Démarche Data H/F",
@@ -492,9 +630,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Analyst Budgétaire « Emplois et Masse Salariale » H/F",
@@ -513,9 +657,17 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdd",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": [
+     "public"
+    ]
+   }
   },
   {
    "titre": "Data Analyst - Data Scientist H/F",
@@ -534,9 +686,17 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdd",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": [
+     "conseil"
+    ]
+   }
   },
   {
    "titre": "Data Analyst H/F",
@@ -555,9 +715,17 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": [
+     "conseil"
+    ]
+   }
   },
   {
    "titre": "Lead Data Engineer H/F",
@@ -576,9 +744,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Senior Data Engineer Databricks H/F",
@@ -597,11 +771,17 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [
     "Databricks"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer H/F",
@@ -620,9 +800,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer - Machine Learning - # H/F",
@@ -641,9 +827,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Analytics Engineer H/F",
@@ -662,9 +854,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analytics_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Lead Data Engineer - Lille H/F",
@@ -683,9 +881,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Analyst Confirmé H/F",
@@ -704,9 +908,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer H/F",
@@ -725,9 +935,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer Gcp H/F",
@@ -746,11 +962,17 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
    "outils": [
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer Gcp H/F",
@@ -769,11 +991,17 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
    "outils": [
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer Flux H/F",
@@ -792,9 +1020,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer H/F",
@@ -813,9 +1047,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer H/F",
@@ -834,9 +1074,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer H/F",
@@ -855,9 +1101,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer H/F",
@@ -876,9 +1128,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer Databricks H/F",
@@ -897,11 +1155,17 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [
     "Databricks"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Senior Data Engineer H/F",
@@ -920,9 +1184,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer H/F",
@@ -941,9 +1211,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer H/F",
@@ -962,9 +1238,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Engineer H/F",
@@ -983,9 +1265,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Analyst H/F",
@@ -1004,9 +1292,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Business & Data Analyst - Digital Purchases Team H/F",
@@ -1025,9 +1319,17 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": [
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Senior Data Analyst - Scientist - M - W H/F",
@@ -1048,7 +1350,13 @@ window.STAGES = {
    "score": 70,
    "vu": "2026-11-24T17:37:59+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Analyst Junior en Alternance H/F",
@@ -1067,9 +1375,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-20T11:30:47+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "alternance",
+    "role": "analyst",
+    "niveau": "junior",
+    "domaines": []
+   }
   },
   {
    "titre": "Business Data Analyste H/F",
@@ -1088,9 +1402,17 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-20T11:30:47+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": [
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "CDI - Context & Analytics Engineer Manager - Paris",
@@ -1109,7 +1431,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T20:32:09+00:00",
    "outils": [
     "SQL",
@@ -1118,7 +1440,15 @@ window.STAGES = {
     "BigQuery",
     "Snowflake",
     "Databricks"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analytics_eng",
+    "niveau": "senior",
+    "domaines": [
+     "finance"
+    ]
+   }
   },
   {
    "titre": "CDI - Senior Context & Analytics Engineer - Paris",
@@ -1137,7 +1467,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1146,7 +1476,15 @@ window.STAGES = {
     "BigQuery",
     "Snowflake",
     "Databricks"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analytics_eng",
+    "niveau": "senior",
+    "domaines": [
+     "finance"
+    ]
+   }
   },
   {
    "titre": "Lead Data Engineer - CDI Paris - Theodo Data & IA",
@@ -1165,14 +1503,22 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
     "Airflow",
     "Spark",
     "ETL"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": [
+     "public"
+    ]
+   }
   },
   {
    "titre": "Cloud & Data Engineer",
@@ -1191,7 +1537,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1202,7 +1548,16 @@ window.STAGES = {
     "ETL",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": [
+     "e-commerce",
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Data Engineer Confirmé(e)",
@@ -1221,7 +1576,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1236,7 +1591,16 @@ window.STAGES = {
     "ETL",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": [
+     "e-commerce",
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Data Engineer expérimenté(e)",
@@ -1255,7 +1619,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1269,7 +1633,16 @@ window.STAGES = {
     "Azure",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": [
+     "e-commerce",
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Data Engineer GCP",
@@ -1288,7 +1661,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1300,7 +1673,16 @@ window.STAGES = {
     "ETL",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": [
+     "e-commerce",
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Lead Data Engineer GCP",
@@ -1319,7 +1701,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1331,7 +1713,15 @@ window.STAGES = {
     "ETL",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": [
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Data Ingénieur Gcp H/F",
@@ -1350,11 +1740,17 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Ingénieur·e Data H/F",
@@ -1373,9 +1769,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Platform Manager (h/f/nb) - CDI",
@@ -1394,9 +1796,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Officer H/F",
@@ -1415,9 +1823,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Développeur·se Data & IA – Alternance",
@@ -1438,7 +1852,13 @@ window.STAGES = {
    "score": 60,
    "vu": "2026-11-24T17:37:59+00:00",
    "premiere": "2026-11-21T17:28:10+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "alternance",
+    "role": "scientist",
+    "niveau": "junior",
+    "domaines": []
+   }
   },
   {
    "titre": "Ingénieur Data Confirmé H/F",
@@ -1457,9 +1877,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Ingénieur Data H/F",
@@ -1478,9 +1904,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "CTO - CDI Paris - Theodo Data & IA",
@@ -1499,13 +1931,23 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-20T20:10:54+00:00",
    "outils": [
     "Snowflake",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "scientist",
+    "niveau": "senior",
+    "domaines": [
+     "industrie",
+     "conseil"
+    ],
+    "annees": 10
+   }
   },
   {
    "titre": "Apprenticeship - Data Office - Chanel Europe - January 2027 - M H/F",
@@ -1524,9 +1966,15 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T15:04:03+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-20T11:30:47+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "alternance",
+    "role": "data",
+    "niveau": "junior",
+    "domaines": []
+   }
   },
   {
    "titre": "Data Platform Manager (h/f/nb) - CDI",
@@ -1547,7 +1995,13 @@ window.STAGES = {
    "score": 60,
    "vu": "2026-11-24T05:58:52+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
-   "outils": []
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": []
+   }
   },
   {
    "titre": "Tech Lead Google Cloud - CDI Paris - Theodo Data & IA",
@@ -1566,12 +2020,21 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "BigQuery",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "scientist",
+    "niveau": "senior",
+    "domaines": [
+     "public"
+    ],
+    "annees": 5
+   }
   },
   {
    "titre": "Data Architect GCP",
@@ -1590,7 +2053,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -1599,7 +2062,16 @@ window.STAGES = {
     "Databricks",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": [
+     "industrie",
+     "conseil"
+    ]
+   }
   },
   {
    "titre": "Senior Data Platform Engineer",
@@ -1618,7 +2090,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1627,7 +2099,15 @@ window.STAGES = {
     "Airflow",
     "Snowflake",
     "AWS"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": [
+     "finance"
+    ]
+   }
   },
   {
    "titre": "Fraud Manager - Data & IA (F/H)",
@@ -1646,12 +2126,21 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
     "Excel"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "scientist",
+    "niveau": "senior",
+    "domaines": [
+     "finance"
+    ],
+    "annees": 3
+   }
   }
  ],
  "autres": [
@@ -1672,7 +2161,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -1682,7 +2171,15 @@ window.STAGES = {
     "Databricks",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "dev",
+    "niveau": "senior",
+    "domaines": [
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Software Engineer Python / FastAPI",
@@ -1701,7 +2198,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -1711,7 +2208,15 @@ window.STAGES = {
     "Databricks",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "dev",
+    "niveau": "",
+    "domaines": [
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "CDI - Senior Platform Engineer - Paris",
@@ -1730,7 +2235,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-20T02:18:31+00:00",
    "outils": [
     "BigQuery",
@@ -1739,7 +2244,15 @@ window.STAGES = {
     "Azure",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "dev",
+    "niveau": "senior",
+    "domaines": [
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "CDI - Product Engineer Manager - Paris",
@@ -1758,11 +2271,21 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "dev",
+    "niveau": "senior",
+    "domaines": [
+     "produit",
+     "industrie",
+     "public"
+    ]
+   }
   },
   {
    "titre": "CDI - Senior Product Engineer - Paris",
@@ -1781,11 +2304,21 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "dev",
+    "niveau": "senior",
+    "domaines": [
+     "produit",
+     "industrie",
+     "public"
+    ]
+   }
   },
   {
    "titre": "AI Software Engineer / Développeur Augmenté (H/F)",
@@ -1804,7 +2337,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -1814,7 +2347,15 @@ window.STAGES = {
     "Databricks",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "scientist",
+    "niveau": "",
+    "domaines": [
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Cloud Architect",
@@ -1833,7 +2374,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -1841,7 +2382,15 @@ window.STAGES = {
     "Databricks",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "dev",
+    "niveau": "senior",
+    "domaines": [
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Cloud Architect GCP",
@@ -1860,7 +2409,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -1868,7 +2417,15 @@ window.STAGES = {
     "Databricks",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "dev",
+    "niveau": "senior",
+    "domaines": [
+     "conseil"
+    ]
+   }
   },
   {
    "titre": "Cloud Engineer GCP",
@@ -1887,7 +2444,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -1895,7 +2452,13 @@ window.STAGES = {
     "Databricks",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "dev",
+    "niveau": "",
+    "domaines": []
+   }
   },
   {
    "titre": "Développeur(euse) Java confirmé(e)",
@@ -1914,7 +2477,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -1922,7 +2485,15 @@ window.STAGES = {
     "Databricks",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "dev",
+    "niveau": "senior",
+    "domaines": [
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Développeur(euse) Java expérimenté(e)",
@@ -1941,7 +2512,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -1949,7 +2520,15 @@ window.STAGES = {
     "Databricks",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "dev",
+    "niveau": "senior",
+    "domaines": [
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Développeur(euse) JavaScript expérimenté(e)",
@@ -1968,7 +2547,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -1976,7 +2555,16 @@ window.STAGES = {
     "Databricks",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "dev",
+    "niveau": "senior",
+    "domaines": [
+     "industrie",
+     "public"
+    ]
+   }
   },
   {
    "titre": "Forward Deployed Engineer – Agentic AI",
@@ -1995,7 +2583,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -2005,7 +2593,15 @@ window.STAGES = {
     "Databricks",
     "AWS",
     "GCP"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "scientist",
+    "niveau": "",
+    "domaines": [
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Growth Operations Apprentice",
@@ -2024,12 +2620,22 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
     "Python"
-   ]
+   ],
+   "signaux": {
+    "contrat": "alternance",
+    "role": "autre",
+    "niveau": "junior",
+    "domaines": [
+     "marketing",
+     "finance",
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Senior Site Reliability Engineer (SRE)",
@@ -2048,14 +2654,24 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
     "Python",
     "Snowflake",
     "AWS"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "dev",
+    "niveau": "senior",
+    "domaines": [
+     "marketing",
+     "finance",
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Senior Software Engineer - Paris",
@@ -2074,13 +2690,23 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-25T14:34:15+00:00",
+   "vu": "2026-11-25T15:48:03+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
     "Snowflake",
     "AWS"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "dev",
+    "niveau": "senior",
+    "domaines": [
+     "marketing",
+     "finance",
+     "industrie"
+    ]
+   }
   },
   {
    "titre": "Credit Strategy Manager (F/H)",
@@ -2103,7 +2729,17 @@ window.STAGES = {
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL"
-   ]
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "autre",
+    "niveau": "senior",
+    "domaines": [
+     "marketing",
+     "finance",
+     "industrie"
+    ]
+   }
   }
  ],
  "liens": [
