@@ -74,6 +74,60 @@ notifications:
 # Liste vérifiée le 2026-11-18 (offres à Paris/Lille présentes). Ajouter une ligne = une entreprise.
 carrieres:
   intervalle_minutes: 60               # au plus un passage par heure
+  # Entreprises dont on ne connaît que le site : le bot détecte leur outil de recrutement (Greenhouse,
+  # Lever…) et lit toutes leurs offres en ligne, anciennes comprises (voir sources/discover.py).
+  decouverte:
+    - {nom: "Decathlon", url: "https://careers.decathlon.com"}
+    - {nom: "Leroy Merlin", url: "https://recrutement.leroymerlin.fr"}
+    - {nom: "ADEO", url: "https://www.adeo.com"}
+    - {nom: "Auchan Retail", url: "https://www.auchan.fr"}
+    - {nom: "Boulanger", url: "https://www.boulanger.com"}
+    - {nom: "La Redoute", url: "https://www.laredoute.fr"}
+    - {nom: "Norauto", url: "https://www.norauto.fr"}
+    - {nom: "Castorama", url: "https://www.castorama.fr"}
+    - {nom: "Pimkie", url: "https://www.pimkie.fr"}
+    - {nom: "Oney", url: "https://www.oney.fr"}
+    - {nom: "Cofidis", url: "https://www.cofidis.fr"}
+    - {nom: "Crédit Agricole Nord de France", url: "https://www.ca-norddefrance.fr"}
+    - {nom: "Caisse d'Épargne Hauts-de-France", url: "https://www.caisse-epargne.fr"}
+    - {nom: "Banque Populaire du Nord", url: "https://www.banquepopulaire.fr"}
+    - {nom: "OVHcloud", url: "https://careers.ovhcloud.com"}
+    - {nom: "Ankama", url: "https://www.ankama.com/fr/jobs"}
+    - {nom: "Bonduelle", url: "https://www.bonduelle.com"}
+    - {nom: "Lesaffre", url: "https://www.lesaffre.com"}
+    - {nom: "Roquette", url: "https://www.roquette.com"}
+    - {nom: "Capgemini", url: "https://www.capgemini.com/fr-fr"}
+    - {nom: "Sopra Steria", url: "https://www.soprasteria.fr"}
+    - {nom: "Keyrus", url: "https://keyrus.com"}
+    - {nom: "Devoteam", url: "https://www.devoteam.com/fr"}
+    - {nom: "Talan", url: "https://www.talan.com/fr"}
+    - {nom: "Onepoint", url: "https://www.groupeonepoint.com"}
+    - {nom: "CGI", url: "https://www.cgi.com/france"}
+    - {nom: "SFEIR", url: "https://www.sfeir.com"}
+    - {nom: "Groupe SII", url: "https://www.groupe-sii.com"}
+    - {nom: "Astek", url: "https://astek.net"}
+    - {nom: "Inetum", url: "https://www.inetum.com/fr"}
+    - {nom: "Ippon Technologies", url: "https://ippon.fr"}
+    - {nom: "ALTEN", url: "https://www.alten.fr"}
+    - {nom: "Meritis", url: "https://www.meritis.fr"}
+    - {nom: "Scalian", url: "https://www.scalian.com"}
+    - {nom: "Viveris", url: "https://www.viveris.fr"}
+    - {nom: "Proxiad", url: "https://www.proxiad.com"}
+    - {nom: "Actimage", url: "https://www.actimage.com"}
+    - {nom: "Atos / Eviden", url: "https://atos.net/fr"}
+    - {nom: "Mantu", url: "https://www.mantu.com"}
+    - {nom: "CELAD", url: "https://www.celad.com"}
+    - {nom: "SportEasy", url: "https://www.sporteasy.net"}
+    - {nom: "CleverConnect", url: "https://www.cleverconnect.com"}
+    - {nom: "Mobivia", url: "https://www.mobivia.com"}
+    - {nom: "Worldline", url: "https://worldline.com"}
+    - {nom: "EuraTechnologies", url: "https://www.euratechnologies.com"}
+    - {nom: "Plaine Images", url: "https://www.plaine-images.fr"}
+    - {nom: "Blanchemaille", url: "https://www.blanchemaille.com"}
+    - {nom: "Lille French Tech", url: "https://www.lillefrenchtech.com"}
+    - {nom: "Métropole Européenne de Lille", url: "https://www.lillemetropole.fr"}
+    - {nom: "CHU de Lille", url: "https://www.chu-lille.fr"}
+    - {nom: "Région Hauts-de-France", url: "https://www.hautsdefrance.fr"}
   entreprises:
     # --- Lille / métropole ---
     - {nom: Exotec, ats: workable, id: exotec}                    # Croix, robotique
