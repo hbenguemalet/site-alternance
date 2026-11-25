@@ -14,6 +14,7 @@ import json
 import logging
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import httpx
@@ -31,6 +32,7 @@ MOTIFS = [
     ("smartrecruiters", re.compile(r"(?:jobs|careers)\.smartrecruiters\.com/([\w-]+)", re.I)),
 ]
 SEMAINE = 7 * 86400
+BUDGET_S = 150  # au-delà, on s'arrête : les entreprises restantes seront cherchées au passage suivant
 
 
 def detecter(html: str) -> tuple[str, str] | None:
@@ -43,14 +45,16 @@ def detecter(html: str) -> tuple[str, str] | None:
     return None
 
 
-def chercher(client: httpx.Client, url: str) -> tuple[str, str] | None:
+def chercher(client: httpx.Client, url: str, limite: float | None = None) -> tuple[str, str] | None:
     base = url.rstrip("/")
-    pages = [base] if "/" in base.split("//", 1)[-1] else [base + c for c in CHEMINS]
-    pages += [base + c for c in CHEMINS if base + c not in pages] if len(pages) == 1 else []
-    for page in pages:
+    for chemin in CHEMINS:
+        if limite is not None and time.time() > limite:
+            return None
         try:
-            r = client.get(page)
+            r = client.get(base + chemin)
         except httpx.HTTPError:
+            if chemin == "":  # le site ne répond pas du tout : inutile d'essayer les autres pages
+                return None
             continue
         if r.status_code == 200 and (found := detecter(r.text)):
             return found
@@ -58,18 +62,26 @@ def chercher(client: httpx.Client, url: str) -> tuple[str, str] | None:
 
 
 def decouvrir(entreprises: list[dict], cache: Path, deja: list[dict], client: httpx.Client | None = None) -> list[dict]:
-    """Entreprises {nom, ats, id} trouvées à partir de [{nom, url}], sans doublon avec `deja`."""
+    """Entreprises {nom, ats, id} trouvées à partir de [{nom, url}], sans doublon avec `deja`.
+    Plusieurs sites sont interrogés en parallèle, dans la limite de BUDGET_S secondes."""
     memoire = json.loads(cache.read_text()) if cache.exists() else {}
-    client = client or httpx.Client(timeout=8, follow_redirects=True,
+    client = client or httpx.Client(timeout=6, follow_redirects=True,
                                     headers={"User-Agent": "jobbot (offres d'emploi perso)"})
+    maintenant = time.time()
+    limite = maintenant + BUDGET_S
+    a_chercher = [e for e in entreprises
+                  if (m := memoire.get(e["nom"])) is None or (not m.get("ats") and maintenant - m.get("essai", 0) > SEMAINE)]
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        trouves = list(pool.map(lambda e: chercher(client, e["url"], limite), a_chercher))
+    for e, f in zip(a_chercher, trouves):
+        if f is None and time.time() > limite:
+            continue  # pas eu le temps : on réessaiera au prochain passage
+        memoire[e["nom"]] = {"ats": f[0], "id": f[1]} if f else {"ats": None, "essai": maintenant}
+        log.info("découverte : %s → %s", e["nom"], f"{f[0]}/{f[1]}" if f else "aucun outil connu")
     connus = {(e["ats"], e["id"].lower()) for e in deja}
-    out, maintenant = [], time.time()
+    out = []
     for e in entreprises:
-        m = memoire.get(e["nom"])
-        if m is None or (not m.get("ats") and maintenant - m.get("essai", 0) > SEMAINE):
-            f = chercher(client, e["url"])
-            m = memoire[e["nom"]] = {"ats": f[0], "id": f[1]} if f else {"ats": None, "essai": maintenant}
-            log.info("découverte : %s → %s", e["nom"], f"{f[0]}/{f[1]}" if f else "aucun outil connu")
+        m = memoire.get(e["nom"]) or {}
         if m.get("ats") and (m["ats"], m["id"].lower()) not in connus:
             connus.add((m["ats"], m["id"].lower()))
             out.append({"nom": e["nom"], "ats": m["ats"], "id": m["id"]})
