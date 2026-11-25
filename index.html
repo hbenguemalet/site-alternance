@@ -12,6 +12,7 @@
 <script>try{var t=localStorage.getItem("theme:alternance-data-2027:v1");if(!t&&matchMedia("(prefers-color-scheme: dark)").matches)t="dark";if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="stylesheet" href="theme.css?v=4">
 <link rel="stylesheet" href="style.css?v=6">
+<link rel="stylesheet" href="spontanees.css?v=1">
 </head>
 <body>
 
@@ -56,6 +57,13 @@
         </div>
       </details>
     </section>
+
+    <details class="sp" id="spontanees">
+      <summary>Candidatures spontanées · Lille <span></span></summary>
+      <p class="sp-intro">Des entreprises de la métropole lilloise qui ont une activité data ou BI. Ouvre leur page carrières, copie un mail type ou fais-toi aider pour rédiger, puis coche « J'ai envoyé ». Pour d'autres entreprises qui recrutent des alternants, regarde <a class="sp-lba" target="_blank" rel="noopener" href="#">La bonne alternance</a> : elle liste les recruteurs probables autour de Lille.</p>
+      <div class="sp-filtres" role="group" aria-label="Secteur"></div>
+      <ul class="sp-liste"></ul>
+    </details>
 
     <nav class="s-onglets" aria-label="Mes listes">
       <button class="s-onglet" data-vue="trier" aria-pressed="true">À trier <span class="s-compte" id="n-trier"></span></button>
@@ -148,5 +156,6 @@
 
 <script src="offres.js"></script>
 <script src="app.js?v=6"></script>
+<script src="spontanees.js?v=1"></script>
 </body>
 </html>
