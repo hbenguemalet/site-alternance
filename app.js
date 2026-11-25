@@ -43,9 +43,11 @@ var SITE = {
       + "à partir de mon profil et de l'avancée de mon bootcamp (projet Data). Lis l'annonce au lien ci-dessous, "
       + "n'invente aucune compétence et signale ce qui manque.\n\nOffre : " + o.titre + "\nEntreprise : " + o.entreprise
       + (o.lieu ? "\nLieu : " + o.lieu : "") + "\nLien : " + o.url
-      + (window.BOOTCAMP ? "\n\nAvancée du bootcamp à jour (" + window.BOOTCAMP.pct + " % des tâches) : "
-        + window.BOOTCAMP.competences.map(function (c) { return c.nom + " " + (c.etat === "à venir" ? "à venir" : c.pct + " % (" + c.etat + ")"); }).join(", ")
-        + (window.BOOTCAMP.prochaine ? ". Prochaine étape : " + window.BOOTCAMP.prochaine.tache : "") + "." : "");
+      + (window.BOOTCAMP ? "\n\nAvancée du bootcamp à jour (" + window.BOOTCAMP.pct + " % des notions) : "
+        + window.BOOTCAMP.competences.map(function (c) {
+          return c.nom + " : " + (c.acquis.length ? "acquis " + c.acquis.join(", ") : "rien d'acquis")
+            + (c.en_cours.length ? " ; en cours " + c.en_cours.join(", ") : "");
+        }).join(" | ") + "." : "");
     cand.href = "https://claude.ai/project/01a1e904-56ee-73eb-8e91-44c63cac8d94?q=" + encodeURIComponent(consigne);
     cand.target = "_blank"; cand.rel = "noopener";
     cand.addEventListener("click", function () {
@@ -847,8 +849,8 @@ var SITE = {
     fetch(SITE.bootcamp.url, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw r.status; return r.json(); }).then(function (b) {
       BOOT = window.BOOTCAMP = b;
       var enCours = b.competences.filter(function (c) { return c.etat === "en cours"; }).map(function (c) { return c.nom + " (" + c.pct + " %)"; });
-      ASTUCES.unshift("Ton bootcamp : " + b.pct + " % des tâches faites" + (enCours.length ? ", en cours : " + enCours.join(", ") : "")
-        + (b.prochaine ? ". Prochaine étape : " + b.prochaine.tache + "." : "."));
+      ASTUCES.unshift("Ton bootcamp : " + b.pct + " % des notions acquises" + (enCours.length ? ", en cours : " + enCours.join(", ") : "")
+        + (b.en_cours && b.en_cours.notions.length ? ". Tu travailles " + b.en_cours.notions.join(", ") + "." : "."));
       ASTUCES.push("Astuce : chaque offre affiche les outils demandés, en vert ceux que tu maîtrises, en couleur ceux du bootcamp en cours. Trie par « Compétences » pour voir les plus accessibles.");
       afficher();
     }).catch(function () { /* pas de bootcamp.json (page ouverte en local) : on s'en passe */ });
