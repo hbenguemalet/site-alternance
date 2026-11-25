@@ -374,3 +374,16 @@ kbd{ display: inline-block; min-width: 22px; padding: .1em .45em; border-radius:
   .s-obj-txt{ font-size: 14px; }
   .s-pas{ font-size: 11px; }
 }
+
+/* ---- outils demandés vs avancée du bootcamp ---- */
+.s-skills{ display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin: 8px 0 0; }
+.s-skills-titre{ font-size: 12px; font-weight: 700; color: var(--a-ink-soft); margin-right: 2px; }
+.s-sk{ display: inline-block; padding: .18em .65em; border-radius: 999px; font-size: 11.5px; font-weight: 700; cursor: help; }
+.s-sk--acquis{ color: var(--s-vert); background: var(--s-vert-fond); box-shadow: inset 0 0 0 1px var(--s-vert-bord); }
+.s-sk--acquis::before{ content: "✓ "; }
+.s-sk--cours{ color: #fff; background: var(--a-accent); }
+.s-sk--cours::before{ content: "◐ "; }
+.s-sk--venir{ color: var(--a-accent-deep); background: var(--a-accent-pale); box-shadow: inset 0 0 0 1px var(--a-accent-soft); }
+.s-sk--venir::before{ content: "○ "; }
+.s-sk--hors{ color: var(--a-ink-soft); background: transparent; box-shadow: inset 0 0 0 1px var(--a-frame-edge); }
+html[data-theme="dark"] .s-sk--venir{ color: var(--a-accent-soft); }
