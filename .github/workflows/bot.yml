@@ -53,7 +53,7 @@ jobs:
       - name: Préparer le site
         run: |
           mkdir public
-          cp index.html style.css theme.css app.js bot.svg offres.js public/
+          cp index.html style.css spontanees.css theme.css app.js spontanees.js bot.svg offres.js public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public

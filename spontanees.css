@@ -1,0 +1,18 @@
+/* Panneau « Candidatures spontanées » (site alternance) */
+.sp{ margin: 0 0 14px; padding: 12px 16px; border-radius: var(--a-radius); background: var(--s-surface, #fff); box-shadow: 0 0 0 1px var(--a-frame-edge), var(--a-lift); }
+.sp summary{ cursor: pointer; list-style: none; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; font-weight: 800; color: var(--a-ink-strong); }
+.sp summary::-webkit-details-marker{ display: none; }
+.sp summary::before{ content: "▸"; display: inline-block; transition: transform .2s; color: var(--a-accent-deep); }
+.sp[open] summary::before{ transform: rotate(90deg); }
+.sp summary span{ font-size: 12px; font-weight: 700; color: var(--a-ink-soft); }
+.sp-intro{ margin: 10px 0; font-size: 14px; line-height: 1.45; }
+.sp-filtres{ display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.sp-liste{ list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); }
+.sp-carte{ padding: 12px 14px; border-radius: var(--a-radius-sm); background: var(--a-bg); box-shadow: 0 0 0 1px var(--a-frame-edge); display: flex; flex-direction: column; gap: 6px; }
+.sp-fait{ opacity: .6; }
+.sp-tete{ display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+.sp-nom{ color: var(--a-ink-strong); font-size: 15px; }
+.sp-lieu{ margin: 0; font-size: 12px; color: var(--a-ink-soft); }
+.sp-pourquoi{ margin: 0; font-size: 13px; line-height: 1.4; flex: 1; }
+.sp-actions{ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.sp-actions .s-act{ text-decoration: none; font-size: 12px; }
