@@ -42,7 +42,10 @@ var SITE = {
     var consigne = "Prépare ma candidature : fais-moi un CV (1 page) et une lettre de motivation sur mesure pour cette offre, "
       + "à partir de mon profil et de l'avancée de mon bootcamp (projet Data). Lis l'annonce au lien ci-dessous, "
       + "n'invente aucune compétence et signale ce qui manque.\n\nOffre : " + o.titre + "\nEntreprise : " + o.entreprise
-      + (o.lieu ? "\nLieu : " + o.lieu : "") + "\nLien : " + o.url;
+      + (o.lieu ? "\nLieu : " + o.lieu : "") + "\nLien : " + o.url
+      + (window.BOOTCAMP ? "\n\nAvancée du bootcamp à jour (" + window.BOOTCAMP.pct + " % des tâches) : "
+        + window.BOOTCAMP.competences.map(function (c) { return c.nom + " " + (c.etat === "à venir" ? "à venir" : c.pct + " % (" + c.etat + ")"); }).join(", ")
+        + (window.BOOTCAMP.prochaine ? ". Prochaine étape : " + window.BOOTCAMP.prochaine.tache : "") + "." : "");
     cand.href = "https://claude.ai/project/01a1e904-56ee-73eb-8e91-44c63cac8d94?q=" + encodeURIComponent(consigne);
     cand.target = "_blank"; cand.rel = "noopener";
     cand.addEventListener("click", function () {
@@ -51,6 +54,13 @@ var SITE = {
     return cand;
   },
   actionToujours: null,
+  // avancée du bootcamp (écrite depuis Notion par le portfolio) : comparée aux outils de chaque offre
+  bootcamp: {
+    url: "/bootcamp.json",
+    // outil cité dans l'annonce → compétence du bootcamp ("acquis" = déjà maîtrisé avant le bootcamp)
+    outils: { SQL: "SQL", Python: "Python", pandas: "Python", "Power BI": "Power BI", DAX: "Power BI", dbt: "Pipeline ETL",
+      Docker: "Pipeline ETL", Airflow: "Pipeline ETL", BigQuery: "Pipeline ETL", ETL: "Pipeline ETL", Excel: "acquis", VBA: "acquis" }
+  },
   objectifDefaut: 5,
   textes: {
     // f = féminin (une alternance) ; sert aux accords de la bulle
@@ -155,6 +165,47 @@ var SITE = {
   var curseur = -1; // carte choisie au clavier
 
   function info(o) { return memo.statuts[o.url] || {}; }
+
+  // ---------- compétences demandées vs avancée du bootcamp ----------
+  var BOOT = null;
+  var OUTILS_TITRE = [["SQL", /\bsql\b/i], ["Python", /python/i], ["Power BI", /power ?bi/i], ["Excel", /excel/i], ["DAX", /\bdax\b/i],
+    ["dbt", /\bdbt\b/i], ["Docker", /docker/i], ["Airflow", /airflow/i], ["BigQuery", /bigquery/i], ["ETL", /\betl\b/i],
+    ["Tableau", /tableau software/i], ["Snowflake", /snowflake/i], ["Spark", /\bspark\b/i], ["Databricks", /databricks/i]];
+  function outilsOffre(o) {
+    if (o.outils) return o.outils;
+    return OUTILS_TITRE.filter(function (x) { return x[1].test(o.titre || ""); }).map(function (x) { return x[0]; });
+  }
+  // état d'un outil : acquis / en cours / à venir / hors (pas au programme du bootcamp)
+  function etatOutil(nom) {
+    var c = SITE.bootcamp && SITE.bootcamp.outils[nom];
+    if (c === "acquis") return { etat: "acquis", pct: 100 };
+    if (!c) return { etat: "hors", pct: 0 };
+    var comp = BOOT && BOOT.competences.filter(function (x) { return x.nom === c; })[0];
+    if (!comp) return { etat: "à venir", pct: 0, comp: c };
+    return { etat: comp.etat === "fait" ? "acquis" : comp.etat, pct: comp.pct, comp: c };
+  }
+  function compatibilite(o) {
+    var l = outilsOffre(o);
+    if (!l.length) return 0.2; // rien de repéré : derrière les offres en partie accessibles
+    return l.reduce(function (t, n) {
+      var e = etatOutil(n);
+      return t + (e.etat === "acquis" ? 1 : e.etat === "en cours" ? 0.5 + e.pct / 200 : e.etat === "à venir" ? 0.15 : 0);
+    }, 0) / l.length;
+  }
+  function blocCompetences(o) {
+    var l = outilsOffre(o);
+    if (!SITE.bootcamp || !l.length) return null;
+    var p = el("p", "s-skills");
+    p.appendChild(el("span", "s-skills-titre", "Demandé :"));
+    var noms = { acquis: "acquis", "en cours": "en cours", "à venir": "à venir", hors: "hors bootcamp" };
+    l.forEach(function (n) {
+      var e = etatOutil(n);
+      var c = el("span", "s-sk s-sk--" + (e.etat === "en cours" ? "cours" : e.etat === "à venir" ? "venir" : e.etat), n);
+      c.title = n + " : " + noms[e.etat] + (e.etat === "en cours" ? " (" + e.pct + " % de « " + e.comp + " » dans le bootcamp)" : "");
+      p.appendChild(c);
+    });
+    return p;
+  }
   function statut(o) { return info(o).s || "trier"; }
   function aRelancer(o) {
     var i = info(o);
@@ -400,6 +451,8 @@ var SITE = {
       });
       bloc.appendChild(inf);
     }
+    var comp = blocCompetences(o);
+    if (comp) bloc.appendChild(comp);
     li.appendChild(bloc);
 
     if (s === "postule") li.appendChild(blocSuivi(o, li));
@@ -526,6 +579,7 @@ var SITE = {
       liste.sort(function (a, b) {
         if (t === "recentes") return String(b.premiere || "").localeCompare(String(a.premiere || "")) || (b.score || 0) - (a.score || 0);
         if (t === "entreprise") return norm(a.entreprise).localeCompare(norm(b.entreprise));
+        if (t === "competences") return compatibilite(b) - compatibilite(a) || (b.score || 0) - (a.score || 0);
         return (nouvelles[b.url] ? 1 : 0) - (nouvelles[a.url] ? 1 : 0) || (b.proche ? 1 : 0) - (a.proche ? 1 : 0) || (b.score || 0) - (a.score || 0);
       });
     } else {
@@ -786,6 +840,21 @@ var SITE = {
       try { localStorage.setItem("theme:" + SITE.cle, t); } catch (e) { /* tant pis */ }
       majTheme();
     });
+  }
+
+  // avancée du bootcamp : chargée en arrière-plan, la page s'affiche sans l'attendre
+  if (SITE.bootcamp) {
+    fetch(SITE.bootcamp.url, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw r.status; return r.json(); }).then(function (b) {
+      BOOT = window.BOOTCAMP = b;
+      var enCours = b.competences.filter(function (c) { return c.etat === "en cours"; }).map(function (c) { return c.nom + " (" + c.pct + " %)"; });
+      ASTUCES.unshift("Ton bootcamp : " + b.pct + " % des tâches faites" + (enCours.length ? ", en cours : " + enCours.join(", ") : "")
+        + (b.prochaine ? ". Prochaine étape : " + b.prochaine.tache + "." : "."));
+      ASTUCES.push("Astuce : chaque offre affiche les outils demandés, en vert ceux que tu maîtrises, en couleur ceux du bootcamp en cours. Trie par « Compétences » pour voir les plus accessibles.");
+      afficher();
+    }).catch(function () { /* pas de bootcamp.json (page ouverte en local) : on s'en passe */ });
+  } else {
+    var opt = document.querySelector('#s-tri option[value="competences"]');
+    if (opt) opt.remove();
   }
 
   afficher();

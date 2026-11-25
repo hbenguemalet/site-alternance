@@ -16,6 +16,9 @@ toutes les heures par GitHub Actions (pas besoin d'allumer un PC).
 - Les offres suivies restent visibles même quand le bot les retire (« Plus en ligne »).
 - Glisser au doigt (droite = garder, gauche = écarter), raccourcis clavier (touche `?`), thème sombre.
 - Sauvegarde / import des choix (JSON) pour changer d'appareil, export CSV des candidatures.
+- Outils demandés par chaque offre (repérés par le bot dans l'annonce) comparés à l'avancée du bootcamp :
+  acquis, en cours, à venir, hors bootcamp. Tri « Compétences » pour voir les offres les plus accessibles.
+  L'avancée vient de `https://hbenguemalet.github.io/bootcamp.json`, synchronisé depuis Notion par le portfolio.
 
 ## Mise en route
 1. Settings, Pages, **Source : GitHub Actions**.

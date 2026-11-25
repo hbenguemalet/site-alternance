@@ -32,6 +32,24 @@ RX_RYTHME = [
     (re.compile(r"\b(\d)\s*semaines? (?:en entreprise )?sur\s*(\d)\b", re.I), "{} sem. sur {}"),
 ]
 RX_DUREE = re.compile(r"(?:dur[ée]e|contrat)[^.\n]{0,25}?(\d{1,2})\s*(mois|ans?)\b", re.I)
+# Outils et langages cités dans l'annonce : la page les compare à l'avancée du bootcamp.
+OUTILS = [
+    ("SQL", r"\bsql\b|postgre|mysql|requ[eê]tes"), ("Python", r"\bpython\b"), ("pandas", r"\bpandas\b"),
+    ("Power BI", r"power ?bi"), ("DAX", r"\bdax\b"), ("Excel", r"\bexcel\b"), ("VBA", r"\bvba\b"),
+    ("Tableau", r"\btableau software\b|\btableau (?:desktop|server|cloud)\b|\bsous tableau\b|\bavec tableau\b"),
+    ("Looker", r"\blooker\b"), ("Qlik", r"\bqlik"), ("dbt", r"\bdbt\b"), ("Docker", r"\bdocker\b"),
+    ("Airflow", r"\bairflow\b"), ("BigQuery", r"bigquery"), ("Snowflake", r"snowflake"), ("Spark", r"\bspark\b"),
+    ("Databricks", r"databricks"), ("ETL", r"\betl\b|\belt\b"),
+    ("Azure", r"\bazure\b"), ("AWS", r"\baws\b"), ("GCP", r"\bgcp\b|google cloud"), ("SAS", r"\bsas\b(?! de)"), ("R", r"\blangage r\b|\br studio\b|\brstudio\b"),
+]
+RX_OUTILS = [(nom, re.compile(motif, re.I)) for nom, motif in OUTILS]
+
+
+def outils(texte: str) -> list[str]:
+    """Outils et langages cités dans le titre ou le texte d'une annonce."""
+    return [nom for nom, rx in RX_OUTILS if rx.search(texte or "")]
+
+
 RX_ETOILE = re.compile(r"data ?(analyst|engineer|scien)|analytics engineer|\bbi\b|business intelligence", re.I)
 
 LIENS = [
@@ -92,7 +110,8 @@ def update(profil_id: str, retenues: list[tuple[Offer, Verdict]], scfg: dict, ro
     store.write_text(json.dumps(gardees, ensure_ascii=False), "utf-8")
 
     seuil = scfg.get("score_proche", 60)
-    tri = [{k: v for k, v in e.items() if k != "texte"}  # le texte des annonces reste dans le JSON, pas dans la page
+    tri = [{**{k: v for k, v in e.items() if k != "texte"},  # le texte des annonces reste dans le JSON, pas dans la page
+            "outils": outils(f"{e['titre']} {e.get('texte', '')}")}
            for e in sorted(gardees.values(), key=lambda e: (e["score"], e["premiere"]), reverse=True)]
     data = {"date": now.date().isoformat(),
             "meilleures": [e for e in tri if e["score"] >= seuil],

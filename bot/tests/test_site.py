@@ -76,3 +76,18 @@ def test_offre_toujours_presente_rafraichie_et_texte_garde(tmp_path):
     assert e["vu"].startswith("2026-11-20") and e["premiere"].startswith("2026-11-18") and "SQL" in e["texte"]
     js = (tmp_path / "web" / "offres.js").read_text("utf-8")
     assert '"texte"' not in js and '"candidature": "moi/depot"' in js
+
+
+def test_outils_cites():
+    assert site.outils("Alternance Data Analyst : SQL (PostgreSQL), Python / pandas, Power BI et DAX") == \
+        ["SQL", "Python", "pandas", "Power BI", "DAX"]
+    assert site.outils("Gestion de tableau de bord commercial") == []
+
+
+def test_outils_publies_dans_la_page(tmp_path):
+    scfg = {"dossier": "web", "score_proche": 60}
+    site.update("p", [(offre(desc="Vous maîtrisez SQL et Power BI."), Verdict(True, score=75))], scfg, tmp_path, NOW)
+    js = (tmp_path / "web" / "offres.js").read_text("utf-8")
+    data = json.loads(js[js.index("{"):js.rindex("}") + 1])
+    assert data["meilleures"][0]["outils"] == ["SQL", "Power BI"]
+    assert "texte" not in data["meilleures"][0]
