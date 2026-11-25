@@ -31,6 +31,14 @@ def build_sources(cfg: dict, env: dict) -> list:
             lba = cfg.get("labonnealternance") or {}
             sources.append(LaBonneAlternance(env["LBA_API_KEY"], cfg["villes"], lba.get("romes") or [],
                                              lba.get("rayon_km", 30)))
+    if cfg["sources"].get("francetravail"):
+        if not (env.get("FT_CLIENT_ID") and env.get("FT_CLIENT_SECRET")):
+            log.error("sources.francetravail activée mais FT_CLIENT_ID / FT_CLIENT_SECRET vides : source ignorée")
+        else:
+            from jobbot.sources.francetravail import FranceTravail
+            ft = cfg.get("francetravail") or {}
+            sources.append(FranceTravail(env["FT_CLIENT_ID"], env["FT_CLIENT_SECRET"], cfg["villes"],
+                                         ft.get("mots_cles") or ["data analyst"], ft.get("rayon_km", 30)))
     if cfg["sources"].get("carrieres"):
         from jobbot.sources.careers import Careers
         car = cfg.get("carrieres") or {}
@@ -113,6 +121,9 @@ def notify(p: Profile, new: list, webhook: str, cfg: dict, store: Store) -> tupl
         messages = discord.build_recap(new[:ncfg.get("max_par_recap", 60)], p)
     else:
         messages = discord.build_messages(new[:ncfg.get("max_par_execution", 30)], p)
+    if ncfg.get("ntfy"):
+        from jobbot.notifiers import ntfy
+        ntfy.push(new, ncfg.get("ntfy_score_min", 80))
     sent = failed = 0
     for i, (payload, chunk) in enumerate(messages):
         try:

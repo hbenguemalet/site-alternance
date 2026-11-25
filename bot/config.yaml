@@ -5,6 +5,7 @@ villes:
     libelle: "Lille"
     adzuna_where: "Lille"
     departements: ["59"]
+    insee: "59350"                    # code commune (API France Travail)
     lat: 50.6292                       # centre utilisé par l'API La bonne alternance
     lon: 3.0573
     alias: ["lille", "villeneuve-d'ascq", "villeneuve d'ascq", "roubaix", "tourcoing",
@@ -15,6 +16,7 @@ villes:
     libelle: "Paris"
     adzuna_where: "Paris"
     departements: ["75"]
+    insee: "75056"
     lat: 48.8566
     lon: 2.3522
     alias: ["paris", "la defense", "puteaux", "courbevoie", "nanterre",
@@ -27,6 +29,7 @@ sources:
   adzuna: false
   email_alerts: true                   # true une fois IMAP_* ajoutés dans les secrets GitHub (boîte d'alertes dédiée)
   labonnealternance: false             # passer à true une fois LBA_API_KEY rempli dans .env
+  francetravail: true                  # API officielle France Travail (FT_CLIENT_ID / FT_CLIENT_SECRET)
   carrieres: true                      # pages carrières (API publiques Greenhouse, Lever…), voir plus bas
 
 labonnealternance:
@@ -35,6 +38,10 @@ labonnealternance:
     - M1805                            # Études et développement informatique (data engineer, dév.)
     - M1403                            # Études et prospectives socio-économiques (data analyst)
     - M1802                            # Expertise et support en systèmes d'information (BI)
+
+francetravail:
+  rayon_km: 30
+  mots_cles: ["data analyst", "business intelligence", "analyste de données", "bi", "power bi", "sql", "data"]
 
 email_alerts:
   jours: 3                             # relit les mails des N derniers jours (doublons écartés par la base)
@@ -55,7 +62,8 @@ site:
 
 notifications:
   discord: false                       # pas de Discord : la page web est la sortie
-  ntfy: false
+  ntfy: true                           # push téléphone (NTFY_TOPIC en secret) pour les meilleures offres
+  ntfy_score_min: 80                   # score /100 minimal (≈ 8/10)
   max_par_execution: 30                # garde-fou anti-spam (messages individuels)
   recap_a_partir_de: 8                 # ≥ N offres pour un profil dans un passage → un récapitulatif
   max_par_recap: 60                    # offres au plus dans un récapitulatif (la suite au passage suivant)

@@ -35,6 +35,9 @@ jobs:
           IMAP_PASSWORD: ${{ secrets.IMAP_PASSWORD }}
           IMAP_FOLDER: ${{ secrets.IMAP_FOLDER }}
           LBA_API_KEY: ${{ secrets.LBA_API_KEY }}
+          FT_CLIENT_ID: ${{ secrets.FT_CLIENT_ID }}
+          FT_CLIENT_SECRET: ${{ secrets.FT_CLIENT_SECRET }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
           ln -s "$GITHUB_WORKSPACE/state" data          # le bot lit/écrit sa base dans data/
           uv sync --frozen --no-dev -q
