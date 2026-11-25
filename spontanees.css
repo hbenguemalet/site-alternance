@@ -16,3 +16,4 @@
 .sp-pourquoi{ margin: 0; font-size: 13px; line-height: 1.4; flex: 1; }
 .sp-actions{ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
 .sp-actions .s-act{ text-decoration: none; font-size: 12px; }
+.sp-recrute{ align-self: flex-start; text-decoration: none; }

@@ -21,7 +21,7 @@
     { id: "castorama", n: "Castorama", v: "Templemars", s: "Retail", q: "Bricolage : ventes magasins et e-commerce.", site: "https://www.castorama.fr" },
     { id: "pimkie", n: "Pimkie", v: "Villeneuve-d'Ascq", s: "Retail", q: "Mode : suivi des ventes et des collections.", site: "https://www.pimkie.fr" },
     // --- Banque, assurance, paiement ---
-    { id: "oney", n: "Oney", v: "Villeneuve-d'Ascq", s: "Banque / paiement", q: "Fintech du paiement : scoring, risque, reporting réglementaire.", site: "https://www.oney.fr" },
+    { id: "oney", m: "oney", n: "Oney", v: "Villeneuve-d'Ascq", s: "Banque / paiement", q: "Fintech du paiement : scoring, risque, reporting réglementaire.", site: "https://www.oney.fr" },
     { id: "cofidis", n: "Cofidis", v: "Villeneuve-d'Ascq", s: "Banque / paiement", q: "Crédit : données clients, risque, marketing.", site: "https://www.cofidis.fr" },
     { id: "canordfrance", n: "Crédit Agricole Nord de France", v: "Lille", s: "Banque / paiement", q: "Banque régionale : pilotage commercial et risque.", site: "https://www.ca-norddefrance.fr" },
     { id: "ceHdf", n: "Caisse d'Épargne Hauts-de-France", v: "Lille", s: "Banque / paiement", q: "Banque régionale : data client et pilotage.", site: "https://www.caisse-epargne.fr" },
@@ -35,13 +35,27 @@
     { id: "lesaffre", n: "Lesaffre", v: "Marcq-en-Barœul", s: "Industrie / agro", q: "Levures et fermentation : données de production.", site: "https://www.lesaffre.com" },
     { id: "roquette", n: "Roquette", v: "Lestrem (50 km)", s: "Industrie / agro", q: "Ingrédients végétaux : données industrielles.", site: "https://www.roquette.com" },
     // --- ESN et conseil data : embauchent beaucoup d'alternants ---
-    { id: "capgemini", n: "Capgemini", v: "Lille", s: "ESN · Conseil", q: "Missions data / BI chez des clients variés.", site: "https://www.capgemini.com/fr-fr" },
-    { id: "sopra", n: "Sopra Steria", v: "Lille", s: "ESN · Conseil", q: "Équipes data et BI à Lille.", site: "https://www.soprasteria.fr" },
-    { id: "keyrus", n: "Keyrus", v: "Lille", s: "ESN · Conseil", q: "Spécialiste data et BI : Power BI, Qlik, ETL.", site: "https://keyrus.com" },
-    { id: "devoteam", n: "Devoteam", v: "Lille", s: "ESN · Conseil", q: "Conseil data et cloud.", site: "https://www.devoteam.com/fr" },
-    { id: "talan", n: "Talan", v: "Lille", s: "ESN · Conseil", q: "Conseil data, BI et IA.", site: "https://www.talan.com/fr" },
-    { id: "onepoint", n: "Onepoint", v: "Lille", s: "ESN · Conseil", q: "Conseil et data.", site: "https://www.groupeonepoint.com" },
-    { id: "cgi", n: "CGI", v: "Lille", s: "ESN · Conseil", q: "Missions BI pour de grands comptes.", site: "https://www.cgi.com/france" },
+    { id: "capgemini", m: "capgemini", n: "Capgemini", v: "Lille", s: "ESN · Conseil", q: "Missions data / BI chez des clients variés.", site: "https://www.capgemini.com/fr-fr" },
+    { id: "sopra", m: "sopra", n: "Sopra Steria", v: "Lille", s: "ESN · Conseil", q: "Équipes data et BI à Lille.", site: "https://www.soprasteria.fr" },
+    { id: "keyrus", m: "keyrus", n: "Keyrus", v: "Lille", s: "ESN · Conseil", q: "Spécialiste data et BI : Power BI, Qlik, ETL.", site: "https://keyrus.com" },
+    { id: "devoteam", m: "devoteam", n: "Devoteam", v: "Lille", s: "ESN · Conseil", q: "Conseil data et cloud.", site: "https://www.devoteam.com/fr" },
+    { id: "talan", m: "talan", n: "Talan", v: "Lille", s: "ESN · Conseil", q: "Conseil data, BI et IA.", site: "https://www.talan.com/fr" },
+    { id: "onepoint", m: "onepoint", n: "Onepoint", v: "Lille", s: "ESN · Conseil", q: "Conseil et data.", site: "https://www.groupeonepoint.com" },
+    { id: "cgi", m: "^cgi", n: "CGI", v: "Lille", s: "ESN · Conseil", q: "Missions BI pour de grands comptes.", site: "https://www.cgi.com/france" },
+    { id: "sfeir", n: "SFEIR", v: "Lille", s: "ESN · Conseil", q: "Cabinet tech et data (Google Cloud) : plusieurs offres data à Lille en ce moment.", site: "https://www.sfeir.com", m: "sfeir" },
+    { id: "sii", n: "Groupe SII", v: "Lille", s: "ESN · Conseil", q: "ESN avec un pôle data et BI à Lille.", site: "https://www.groupe-sii.com", m: "groupe sii" },
+    { id: "astek", n: "Astek", v: "Lille", s: "ESN · Conseil", q: "Ingénierie et data, agence de Lille.", site: "https://astek.net", m: "astek" },
+    { id: "inetum", n: "Inetum", v: "Lille", s: "ESN · Conseil", q: "Services numériques : missions data et BI.", site: "https://www.inetum.com/fr", m: "inetum" },
+    { id: "ippon", n: "Ippon Technologies", v: "Lille", s: "ESN · Conseil", q: "Conseil data et cloud, agence lilloise.", site: "https://ippon.fr", m: "ippon" },
+    { id: "alten", n: "ALTEN", v: "Lille", s: "ESN · Conseil", q: "Ingénierie et conseil, projets data.", site: "https://www.alten.fr", m: "alten" },
+    { id: "meritis", n: "Meritis", v: "Lille", s: "ESN · Conseil", q: "Conseil en transformation avec un pôle data.", site: "https://www.meritis.fr", m: "meritis" },
+    { id: "scalian", n: "Scalian", v: "Lille", s: "ESN · Conseil", q: "Ingénierie et data.", site: "https://www.scalian.com", m: "scalian" },
+    { id: "viveris", n: "Viveris", v: "Lille", s: "ESN · Conseil", q: "Ingénierie des systèmes d'information et data.", site: "https://www.viveris.fr", m: "viveris" },
+    { id: "proxiad", n: "Proxiad", v: "Lille", s: "ESN · Conseil", q: "ESN avec des missions data et BI.", site: "https://www.proxiad.com", m: "proxiad" },
+    { id: "actimage", n: "Actimage", v: "Lille", s: "ESN · Conseil", q: "Agence digitale et data.", site: "https://www.actimage.com", m: "actimage" },
+    { id: "atos", n: "Atos / Eviden", v: "Lille", s: "ESN · Conseil", q: "Services numériques : data et BI.", site: "https://atos.net/fr", m: "atos|eviden" },
+    { id: "mantu", n: "Mantu", v: "Lille", s: "ESN · Conseil", q: "Conseil et data.", site: "https://www.mantu.com", m: "mantu" },
+    { id: "celad", n: "CELAD", v: "Lille", s: "ESN · Conseil", q: "ESN avec des offres data à Lille.", site: "https://www.celad.com", m: "celad" },
     // --- Startups et écosystème lillois ---
     { id: "sporteasy", n: "SportEasy", v: "Lille", s: "Startup", q: "Application de gestion d'équipes sportives : usage produit, abonnements, croissance.", site: "https://www.sporteasy.net" },
     { id: "cleverconnect", n: "CleverConnect", v: "Lille", s: "Startup", q: "Tech du recrutement : données de campagnes et de candidatures à grande échelle.", site: "https://www.cleverconnect.com" },
@@ -92,6 +106,18 @@
     try { navigator.clipboard.writeText(txt).then(fin, fin); } catch (e) { fin(); }
   }
 
+  // Offres déjà publiées par le bot (offres.js) : quelles entreprises recrutent en data à Lille en ce moment
+  var DATA = window.STAGES || {}, toutes = (DATA.meilleures || []).concat(DATA.autres || []);
+  var LILLE = /lille|roubaix|tourcoing|villeneuve|marcq|croix\b|lesquin|\b59\b|\(59\)|- 59/i;
+  function offresDe(e) {
+    var rx = new RegExp(e.m || e.n.toLowerCase().replace(/[^a-z0-9]+/g, ".?"), "i");
+    return toutes.filter(function (o) { return rx.test(o.entreprise || "") && LILLE.test(o.lieu || ""); });
+  }
+  E.forEach(function (e) {
+    e.offres = offresDe(e);
+    e.alt = e.offres.filter(function (o) { return /alternan|apprenti/i.test((o.contrat || "") + " " + o.titre); });
+  });
+
   var secteur = "", etat = lire();
   var resume = racine.querySelector("summary span"), liste = racine.querySelector(".sp-liste"), pastilles = racine.querySelector(".sp-filtres");
 
@@ -100,7 +126,7 @@
     resume.textContent = envoyees + " envoyée" + (envoyees > 1 ? "s" : "") + " sur " + E.length;
     liste.textContent = "";
     var vues = E.filter(function (e) { return !secteur || e.s === secteur; });
-    vues.sort(function (a, b) { return (etat[a.id] ? 1 : 0) - (etat[b.id] ? 1 : 0); });
+    vues.sort(function (a, b) { return (etat[a.id] ? 1 : 0) - (etat[b.id] ? 1 : 0) || (b.alt.length - a.alt.length) || (b.offres.length - a.offres.length); });
     vues.forEach(function (e) {
       var li = el("li", "sp-carte" + (etat[e.id] ? " sp-fait" : ""));
       var tete = el("div", "sp-tete");
@@ -109,6 +135,10 @@
       li.appendChild(tete);
       li.appendChild(el("p", "sp-lieu", e.v));
       li.appendChild(el("p", "sp-pourquoi", e.q));
+      if (e.offres.length) {
+        var nb = e.alt.length ? e.alt.length + " alternance" + (e.alt.length > 1 ? "s" : "") + " data à Lille" : e.offres.length + " offre" + (e.offres.length > 1 ? "s" : "") + " data à Lille (hors alternance)";
+        li.appendChild(lien("a-chip a-chip--good sp-recrute", "● " + nb + " : voir", (e.alt[0] || e.offres[0]).url));
+      }
       var act = el("div", "sp-actions");
       act.appendChild(lien("s-act s-act--voir", e.carrieres ? "Candidature spontanée ↗" : "Trouver la page carrières ↗", e.carrieres || recherche(e)));
       var ecrit = lien("s-act", "✎ Rédiger avec Claude", PROJET + "?q=" + encodeURIComponent(consigne(e)));
