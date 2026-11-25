@@ -24,6 +24,7 @@ from jobbot.sources.email_alerts import (
     linkedin,
     makesense,
 )
+from jobbot.sources.email_alerts.generic import PARSERS as GENERIQUES
 from jobbot.sources.email_alerts.canonical import canonical
 from jobbot.sources.email_alerts.links import safe_url
 
@@ -73,6 +74,8 @@ ROUTES = [
     Route("makesense.org", makesense.parse),
     Route("coordinationsud.org", coordinationsud.parse, subject=re.compile(r"alerte emploi", re.IGNORECASE)),
     Route("lesjeudis.com", lesjeudis.parse, subject=re.compile(r"offres pour votre alerte", re.IGNORECASE)),
+    # Sites sans parser dédié : lecture générique des liens d'offres (voir generic.py)
+    *[Route(dom, parse) for dom, parse in GENERIQUES.values()],
 ]
 
 
