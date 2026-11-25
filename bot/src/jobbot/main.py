@@ -42,7 +42,14 @@ def build_sources(cfg: dict, env: dict) -> list:
     if cfg["sources"].get("carrieres"):
         from jobbot.sources.careers import Careers
         car = cfg.get("carrieres") or {}
-        sources.append(Careers(car.get("entreprises") or [], ROOT / "data" / "carrieres.stamp",
+        entreprises = list(car.get("entreprises") or [])
+        if car.get("decouverte"):  # entreprises dont on ne connaît que le site : outil de recrutement détecté
+            from jobbot.sources.discover import decouvrir
+            try:
+                entreprises += decouvrir(car["decouverte"], ROOT / "data" / "ats_decouverts.json", entreprises)
+            except Exception:
+                log.exception("découverte des pages carrières en échec : on continue avec la liste fixe")
+        sources.append(Careers(entreprises, ROOT / "data" / "carrieres.stamp",
                                car.get("intervalle_minutes", 60)))
     return sources
 

@@ -144,6 +144,8 @@
       var ecrit = lien("s-act", "✎ Rédiger avec Claude", PROJET + "?q=" + encodeURIComponent(consigne(e)));
       ecrit.addEventListener("click", function () { try { navigator.clipboard.writeText(consigne(e)); } catch (x) { /* collage manuel */ } });
       act.appendChild(ecrit);
+      var q = encodeURIComponent(e.n + " data");
+      act.appendChild(lien("s-act", "Toutes leurs offres ↗", "https://fr.indeed.com/jobs?q=" + q + "&l=" + encodeURIComponent(e.v.split(/[ /]/)[0])));
       var mail = el("button", "s-act", "✉ Copier un mail type"); mail.type = "button";
       mail.addEventListener("click", function () { copier(mailType(e), mail, "Copié ✓"); });
       act.appendChild(mail);
