@@ -19,7 +19,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-25T12:47:05+00:00",
    "outils": [
     "Power BI"
@@ -48,7 +48,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-25T12:47:05+00:00",
    "outils": [],
    "signaux": {
@@ -75,7 +75,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -104,7 +104,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [
     "SQL",
@@ -136,7 +136,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-23T14:39:56+00:00",
    "outils": [
     "Python",
@@ -166,7 +166,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -193,7 +193,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [
     "dbt",
@@ -203,6 +203,60 @@ window.STAGES = {
     "contrat": "cdi",
     "role": "data_eng",
     "niveau": "senior",
+    "domaines": []
+   }
+  },
+  {
+   "titre": "Data Analyst H/F",
+   "entreprise": "Storm Group",
+   "lieu": "Paris 2e - 75",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789604.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-26T08:05:32+00:00",
+   "premiere": "2026-11-26T08:05:32+00:00",
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": []
+   }
+  },
+  {
+   "titre": "Client Insights Data Analyst H/F",
+   "entreprise": "Louis Vuitton",
+   "lieu": "Paris - 75",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85891152.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-26T08:05:32+00:00",
+   "premiere": "2026-11-26T08:05:32+00:00",
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "analyst",
+    "niveau": "",
     "domaines": []
    }
   },
@@ -223,7 +277,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-25T14:34:15+00:00",
    "outils": [],
    "signaux": {
@@ -250,7 +304,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-25T12:47:05+00:00",
    "outils": [],
    "signaux": {
@@ -277,7 +331,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-25T12:47:05+00:00",
    "outils": [],
    "signaux": {
@@ -306,7 +360,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -333,7 +387,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -360,7 +414,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -387,7 +441,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -414,7 +468,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -441,7 +495,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -468,7 +522,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -495,7 +549,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -522,7 +576,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -549,7 +603,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -576,7 +630,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -603,7 +657,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -630,7 +684,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -657,7 +711,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -686,7 +740,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -715,7 +769,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -744,7 +798,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -771,7 +825,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [
     "Databricks"
@@ -800,7 +854,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -827,7 +881,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -854,7 +908,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -881,7 +935,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -908,7 +962,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -962,7 +1016,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
    "outils": [
     "GCP"
@@ -991,7 +1045,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
    "outils": [
     "GCP"
@@ -1020,7 +1074,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
    "outils": [],
    "signaux": {
@@ -1047,7 +1101,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
    "outils": [],
    "signaux": {
@@ -1074,7 +1128,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1101,7 +1155,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1128,7 +1182,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1155,7 +1209,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [
     "Databricks"
@@ -1184,7 +1238,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1211,7 +1265,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1238,7 +1292,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1265,7 +1319,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1292,7 +1346,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1319,7 +1373,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1375,7 +1429,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-20T11:30:47+00:00",
    "outils": [],
    "signaux": {
@@ -1402,7 +1456,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-20T11:30:47+00:00",
    "outils": [],
    "signaux": {
@@ -1503,7 +1557,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -1537,7 +1591,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1576,7 +1630,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1619,7 +1673,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1661,7 +1715,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1701,7 +1755,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1740,7 +1794,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [
     "GCP"
@@ -1769,7 +1823,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -1796,7 +1850,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -1823,7 +1877,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -1877,7 +1931,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1904,7 +1958,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1931,7 +1985,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-20T20:10:54+00:00",
    "outils": [
     "Snowflake",
@@ -1966,7 +2020,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-20T11:30:47+00:00",
    "outils": [],
    "signaux": {
@@ -2020,7 +2074,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "BigQuery",
@@ -2053,7 +2107,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2090,7 +2144,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -2126,7 +2180,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -2161,7 +2215,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -2198,7 +2252,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -2337,7 +2391,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -2374,7 +2428,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2409,7 +2463,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2444,7 +2498,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2477,7 +2531,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2512,7 +2566,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2547,7 +2601,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2583,7 +2637,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -2620,7 +2674,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -2654,7 +2708,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -2690,7 +2744,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T04:59:32+00:00",
+   "vu": "2026-11-26T08:05:32+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
