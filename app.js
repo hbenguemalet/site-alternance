@@ -41,7 +41,9 @@ var SITE = {
     var cand = el("a", "s-act s-act--voir", "✎ Préparer ma candidature");
     var consigne = "Prépare ma candidature : fais-moi un CV (1 page) et une lettre de motivation sur mesure pour cette offre, "
       + "à partir de mon profil et de l'avancée de mon bootcamp (projet Data). Lis l'annonce au lien ci-dessous, "
-      + "n'invente aucune compétence et signale ce qui manque.\n\nOffre : " + o.titre + "\nEntreprise : " + o.entreprise
+      + "n'invente aucune compétence et signale ce qui manque. Format du CV : reprends exactement le modèle LaTeX du projet "
+      + "(claude/cv/template-latex.html + build-latex.py : Palatino, en-tête centré, titres à filet, tirets cadratins), "
+      + "adapte {{TAGLINE}} et l'ordre des puces à l'offre, PDF A4 1 page.\n\nOffre : " + o.titre + "\nEntreprise : " + o.entreprise
       + (o.lieu ? "\nLieu : " + o.lieu : "") + "\nLien : " + o.url
       + (compat(o) ? "\n\nCompatibilité estimée avec mon profil : " + fmtNote(compat(o).note) + "/10 (" + compat(o).raisons.map(function (x) { return x.t; }).join(" ; ") + ")." : "")
       + (window.BOOTCAMP ? "\n\nAvancée du bootcamp à jour (" + window.BOOTCAMP.pct + " % des notions) : "
