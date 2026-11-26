@@ -31,6 +31,14 @@ def build_sources(cfg: dict, env: dict) -> list:
             lba = cfg.get("labonnealternance") or {}
             sources.append(LaBonneAlternance(env["LBA_API_KEY"], cfg["villes"], lba.get("romes") or [],
                                              lba.get("rayon_km", 30)))
+    if cfg["sources"].get("adzuna"):
+        if not (env.get("ADZUNA_APP_ID") and env.get("ADZUNA_APP_KEY")):
+            log.error("sources.adzuna activée mais ADZUNA_APP_ID / ADZUNA_APP_KEY vides : source ignorée")
+        else:
+            from jobbot.sources.adzuna import Adzuna
+            az = cfg.get("adzuna") or {}
+            sources.append(Adzuna(env["ADZUNA_APP_ID"], env["ADZUNA_APP_KEY"], cfg["villes"],
+                                  az.get("mots_cles") or ["alternance data analyst"], az.get("rayon_km", 30)))
     if cfg["sources"].get("francetravail"):
         if not (env.get("FT_CLIENT_ID") and env.get("FT_CLIENT_SECRET")):
             log.error("sources.francetravail activée mais FT_CLIENT_ID / FT_CLIENT_SECRET vides : source ignorée")
