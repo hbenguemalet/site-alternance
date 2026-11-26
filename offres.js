@@ -3,6 +3,35 @@ window.STAGES = {
  "date": "2026-11-26",
  "meilleures": [
   {
+   "titre": "Data Engineer Dbt H/F",
+   "entreprise": "CGI",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81370242.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 75,
+   "vu": "2026-11-26T15:09:28+00:00",
+   "premiere": "2026-11-26T15:09:28+00:00",
+   "outils": [
+    "dbt"
+   ],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
+  },
+  {
    "titre": "Data Analyst Alteryx - Powerbi H/F",
    "entreprise": "Nexton",
    "lieu": "Paris - 75",
@@ -19,7 +48,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-25T12:47:05+00:00",
    "outils": [
     "Power BI"
@@ -48,7 +77,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-25T12:47:05+00:00",
    "outils": [],
    "signaux": {
@@ -75,7 +104,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -104,7 +133,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [
     "SQL",
@@ -136,7 +165,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-23T14:39:56+00:00",
    "outils": [
     "Python",
@@ -166,7 +195,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -193,7 +222,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 75,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [
     "dbt",
@@ -203,6 +232,87 @@ window.STAGES = {
     "contrat": "cdi",
     "role": "data_eng",
     "niveau": "senior",
+    "domaines": []
+   }
+  },
+  {
+   "titre": "Data Engineer H/F",
+   "entreprise": "Akkodis",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85871263.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-26T15:09:28+00:00",
+   "premiere": "2026-11-26T15:09:28+00:00",
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
+    "domaines": []
+   }
+  },
+  {
+   "titre": "Data Engineer Expérimenté H/F",
+   "entreprise": "Open",
+   "lieu": "Villeneuve-d'Ascq - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/65818502.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-26T15:09:28+00:00",
+   "premiere": "2026-11-26T15:09:28+00:00",
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "senior",
+    "domaines": []
+   }
+  },
+  {
+   "titre": "Data Engineer H/F",
+   "entreprise": "WINSIDE TECHNOLOGY",
+   "lieu": "Lille - 59",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82264594.html",
+   "contrat": "CDI",
+   "etoile": true,
+   "salaire": "44 000 - 60 000 € / an",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 70,
+   "vu": "2026-11-26T15:09:28+00:00",
+   "premiere": "2026-11-26T15:09:28+00:00",
+   "outils": [],
+   "signaux": {
+    "contrat": "cdi",
+    "role": "data_eng",
+    "niveau": "",
     "domaines": []
    }
   },
@@ -223,7 +333,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-26T08:05:32+00:00",
    "outils": [],
    "signaux": {
@@ -250,7 +360,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-26T08:05:32+00:00",
    "outils": [],
    "signaux": {
@@ -277,7 +387,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-25T14:34:15+00:00",
    "outils": [],
    "signaux": {
@@ -304,7 +414,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-25T12:47:05+00:00",
    "outils": [],
    "signaux": {
@@ -331,7 +441,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-25T12:47:05+00:00",
    "outils": [],
    "signaux": {
@@ -360,7 +470,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -387,7 +497,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -414,7 +524,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -441,7 +551,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -468,7 +578,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -495,7 +605,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -522,7 +632,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -549,7 +659,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -576,7 +686,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -603,7 +713,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -630,7 +740,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -657,7 +767,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -684,7 +794,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -711,7 +821,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -740,7 +850,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -769,7 +879,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -798,7 +908,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -825,7 +935,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [
     "Databricks"
@@ -854,7 +964,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -881,7 +991,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -908,7 +1018,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -935,7 +1045,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -962,7 +1072,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -989,7 +1099,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-25T23:50:36+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
    "outils": [],
    "signaux": {
@@ -1016,7 +1126,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
    "outils": [
     "GCP"
@@ -1045,7 +1155,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
    "outils": [
     "GCP"
@@ -1074,7 +1184,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
    "outils": [],
    "signaux": {
@@ -1101,7 +1211,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-22T11:15:53+00:00",
    "outils": [],
    "signaux": {
@@ -1128,7 +1238,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1155,7 +1265,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1182,7 +1292,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1209,7 +1319,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [
     "Databricks"
@@ -1238,7 +1348,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1265,7 +1375,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1292,7 +1402,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1319,7 +1429,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1346,7 +1456,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1373,7 +1483,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1429,7 +1539,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-20T11:30:47+00:00",
    "outils": [],
    "signaux": {
@@ -1456,7 +1566,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-20T11:30:47+00:00",
    "outils": [],
    "signaux": {
@@ -1557,7 +1667,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -1591,7 +1701,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1630,7 +1740,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1673,7 +1783,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1715,7 +1825,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1755,7 +1865,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 70,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -1778,6 +1888,33 @@ window.STAGES = {
    }
   },
   {
+   "titre": "CDD - Data Officer Static Data H/F",
+   "entreprise": "CACEIS",
+   "lieu": "Montrouge - 92",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84815972.html",
+   "contrat": "CDD",
+   "etoile": false,
+   "salaire": "",
+   "site": "HelloWork",
+   "pourquoi": [],
+   "note": null,
+   "infos": [
+    "Début : non précisé",
+    "Rythme : non précisé",
+    "Durée : non précisée"
+   ],
+   "score": 60,
+   "vu": "2026-11-26T15:09:28+00:00",
+   "premiere": "2026-11-26T15:09:28+00:00",
+   "outils": [],
+   "signaux": {
+    "contrat": "cdd",
+    "role": "analyst",
+    "niveau": "",
+    "domaines": []
+   }
+  },
+  {
    "titre": "Data Ingénieur Gcp H/F",
    "entreprise": "Alteca",
    "lieu": "Lille - 59",
@@ -1794,7 +1931,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [
     "GCP"
@@ -1823,7 +1960,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -1850,7 +1987,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-24T17:37:59+00:00",
    "outils": [],
    "signaux": {
@@ -1877,7 +2014,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-23T08:58:59+00:00",
    "outils": [],
    "signaux": {
@@ -1931,7 +2068,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1958,7 +2095,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-21T09:44:34+00:00",
    "outils": [],
    "signaux": {
@@ -1985,7 +2122,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-20T20:10:54+00:00",
    "outils": [
     "Snowflake",
@@ -2020,7 +2157,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-20T11:30:47+00:00",
    "outils": [],
    "signaux": {
@@ -2074,7 +2211,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "BigQuery",
@@ -2107,7 +2244,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2144,7 +2281,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -2180,7 +2317,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 60,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -2215,7 +2352,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -2252,7 +2389,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 45,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -2391,7 +2528,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -2428,7 +2565,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2463,7 +2600,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2498,7 +2635,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2531,7 +2668,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2566,7 +2703,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2601,7 +2738,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "dbt",
@@ -2637,7 +2774,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "Python",
@@ -2674,7 +2811,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -2708,7 +2845,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
@@ -2744,7 +2881,7 @@ window.STAGES = {
     "Durée : non précisée"
    ],
    "score": 40,
-   "vu": "2026-11-26T08:05:32+00:00",
+   "vu": "2026-11-26T15:09:28+00:00",
    "premiere": "2026-11-19T17:11:07+00:00",
    "outils": [
     "SQL",
