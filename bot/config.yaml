@@ -26,7 +26,7 @@ villes:
 # Les mots-clés, contrats et salons Discord de chaque personne sont dans profiles.yaml.
 
 sources:
-  adzuna: false
+  adzuna: true                         # API Adzuna : toutes les offres en ligne (ADZUNA_APP_ID / ADZUNA_APP_KEY), ignorée sans clé
   email_alerts: true                   # true une fois IMAP_* ajoutés dans les secrets GitHub (boîte d'alertes dédiée)
   labonnealternance: true              # actif dès que le secret LBA_API_KEY est renseigné (sinon ignoré, avec un message dans les logs)
   francetravail: true                  # API officielle France Travail (FT_CLIENT_ID / FT_CLIENT_SECRET)
@@ -38,6 +38,10 @@ labonnealternance:
     - M1805                            # Études et développement informatique (data engineer, dév.)
     - M1403                            # Études et prospectives socio-économiques (data analyst)
     - M1802                            # Expertise et support en systèmes d'information (BI)
+
+adzuna:
+  rayon_km: 30
+  mots_cles: ["alternance data analyst", "alternance business intelligence", "alternance bi", "alternance power bi", "alternance analyste de données", "apprentissage data"]
 
 francetravail:
   rayon_km: 30
