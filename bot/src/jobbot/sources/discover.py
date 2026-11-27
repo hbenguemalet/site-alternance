@@ -40,6 +40,8 @@ PAGES_ATS = {"greenhouse": "https://boards.greenhouse.io/{}", "lever": "https://
              "recruitee": "https://{}.recruitee.com", "smartrecruiters": "https://jobs.smartrecruiters.com/{}"}
 FORT = re.compile(r"carri[èe]res?|recrutement|nous rejoindre|rejoignez|offres? d.emploi|travailler (?:chez|avec)|careers?|join us|work with us", re.I)
 FAIBLE = re.compile(r"\bemplois?\b|\bjobs?\b|\brecrut", re.I)
+HORS_SUJET = re.compile(r"assurance|soci[eé]taire|particulier|ch[oô]mage|actualit|presse|blog|mentions|cookies|\\.pdf", re.I)
+VERSION = 2  # change quand les règles de détection changent : le cache est alors refait
 SOCIAL = re.compile(r"linkedin|facebook|twitter|x\.com|instagram|youtube|tiktok|welcometothejungle|indeed|glassdoor", re.I)
 SEMAINE = 7 * 86400
 BUDGET_S = 150  # au-delà, on s'arrête : les entreprises restantes seront cherchées au passage suivant
@@ -67,6 +69,8 @@ def lien_carrieres(html: str, base: str) -> str | None:
         if SOCIAL.search(hote):
             continue
         texte = " ".join(a.stripped_strings)[:80]
+        if HORS_SUJET.search(url):
+            continue
         if FORT.search(texte) or FORT.search(url):
             return url
         if faible is None and FAIBLE.search(texte) and len(texte) < 40:
@@ -108,7 +112,7 @@ def decouvrir(entreprises: list[dict], cache: Path, deja: list[dict], client: ht
     limite = maintenant + BUDGET_S
 
     def a_refaire(m: dict | None) -> bool:
-        if m is None or "page" not in m:  # jamais cherché (ou ancien format sans page des offres)
+        if m is None or m.get("v") != VERSION:  # jamais cherché, ou règles de détection changées
             return True
         return not m.get("ats") and maintenant - m.get("essai", 0) > SEMAINE
 
@@ -118,7 +122,7 @@ def decouvrir(entreprises: list[dict], cache: Path, deja: list[dict], client: ht
     for e, f in zip(a_chercher, trouves):
         if time.time() > limite and not f["page"] and not f["ats"]:
             continue  # pas eu le temps : on réessaiera au prochain passage
-        memoire[e["nom"]] = {**f, "essai": maintenant}
+        memoire[e["nom"]] = {**f, "essai": maintenant, "v": VERSION}
         log.info("découverte : %s → %s", e["nom"], f"{f['ats']}/{f['id']}" if f["ats"] else f"pas d'outil connu, page : {f['page']}")
     connus = {(e["ats"], e["id"].lower()) for e in deja}
     out = []
