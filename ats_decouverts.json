@@ -1,206 +1,308 @@
 {
  "Decathlon": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Leroy Merlin": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://recrutement.leroymerlin.fr/connect",
+  "essai": 1795785882.7743165
  },
  "ADEO": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Auchan Retail": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.auchan-recrute.fr/",
+  "essai": 1795785882.7743165
  },
  "Boulanger": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "La Redoute": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Norauto": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Castorama": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Pimkie": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://job.pimkie.com/",
+  "essai": 1795785882.7743165
  },
  "Oney": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.oney.com/jobs/jobs-en-france-groupe/",
+  "essai": 1795785882.7743165
  },
  "Cofidis": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.cofidis.fr/fr/assurance/assurance-chomage.html",
+  "essai": 1795785882.7743165
  },
  "Crédit Agricole Nord de France": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.credit-agricole.fr/ca-norddefrance/particulier/espace-societaire.html",
+  "essai": 1795785882.7743165
  },
  "Caisse d'Épargne Hauts-de-France": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://recrutement.bpce.fr/",
+  "essai": 1795785882.7743165
  },
  "Banque Populaire du Nord": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://recrutement.bpce.fr/",
+  "essai": 1795785882.7743165
  },
  "OVHcloud": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://careers.ovhcloud.com",
+  "essai": 1795785882.7743165
  },
  "Ankama": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Bonduelle": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://jobs.bonduelle.com/",
+  "essai": 1795785882.7743165
  },
  "Lesaffre": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.lesaffre.com/careers/",
+  "essai": 1795785882.7743165
  },
  "Roquette": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.roquette.com/careers",
+  "essai": 1795785882.7743165
  },
  "Capgemini": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.capgemini.com/fr-fr/carrieres/",
+  "essai": 1795785882.7743165
  },
  "Sopra Steria": {
   "ats": "smartrecruiters",
-  "id": "SopraSteria1"
+  "id": "SopraSteria1",
+  "page": "https://jobs.soprasteria.com/",
+  "essai": 1795785882.7743165
  },
  "Keyrus": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://jobs.keyrus.consulting",
+  "essai": 1795785882.7743165
  },
  "Devoteam": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Talan": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Onepoint": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.groupeonepoint.com/fr/nous-rejoindre/",
+  "essai": 1795785882.7743165
  },
  "CGI": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.cgi.com/france/fr-fr/recrute/carrieres-faq",
+  "essai": 1795785882.7743165
  },
  "SFEIR": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.sfeir.com/carrieres/",
+  "essai": 1795785882.7743165
  },
  "Groupe SII": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://sii-group.com/fr-FR/join-us",
+  "essai": 1795785882.7743165
  },
  "Astek": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://astek.net/career/",
+  "essai": 1795785882.7743165
  },
  "Inetum": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Ippon Technologies": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "ALTEN": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Meritis": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://meritis.fr/accueil-carriere/",
+  "essai": 1795785882.7743165
  },
  "Scalian": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://careers.scalian.com/",
+  "essai": 1795785882.7743165
  },
  "Viveris": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.viveris.fr/nous-rejoindre/?keywords&eolia_search=Rechercher",
+  "essai": 1795785882.7743165
  },
  "Proxiad": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Actimage": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.actimage.com/fr/carriere/",
+  "essai": 1795785882.7743165
  },
  "Atos / Eviden": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.atos.ai/fr-fr/carrieres/ils-font-la-difference",
+  "essai": 1795785882.7743165
  },
  "Mantu": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://careers.mantu.com/jobs",
+  "essai": 1795785882.7743165
  },
  "CELAD": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.celad.com/carriere/",
+  "essai": 1795785882.7743165
  },
  "SportEasy": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "CleverConnect": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.cleverconnect.com/career-site",
+  "essai": 1795785882.7743165
  },
  "Mobivia": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Worldline": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://jobs.worldline.com",
+  "essai": 1795785882.7743165
  },
  "EuraTechnologies": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.euratechnologies.com/offres-d-emploi",
+  "essai": 1795785882.7743165
  },
  "Plaine Images": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://plaine-images.welcomekit.co/",
+  "essai": 1795785882.7743165
  },
  "Blanchemaille": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Lille French Tech": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": null,
+  "essai": 1795785882.7743165
  },
  "Métropole Européenne de Lille": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.lillemetropole.fr/recrutement",
+  "essai": 1795785882.7743165
  },
  "CHU de Lille": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.uneplacepourtoi.chu-lille.fr/",
+  "essai": 1795785882.7743165
  },
  "Région Hauts-de-France": {
   "ats": null,
-  "essai": 1795650889.3796453
+  "id": null,
+  "page": "https://www.hautsdefrance.fr/offres-emploi/",
+  "essai": 1795785882.7743165
  }
 }
