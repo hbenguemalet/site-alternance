@@ -121,6 +121,8 @@ def update(profil_id: str, retenues: list[tuple[Offer, Verdict]], scfg: dict, ro
             "liens": LIENS}
     if scfg.get("depot_candidature"):
         data["candidature"] = scfg["depot_candidature"]
+    from jobbot.sources.discover import pages  # pages d'offres des entreprises (panneau « spontanées »)
+    data["pages_emploi"] = pages(root / "data" / "ats_decouverts.json")
     dossier = Path(scfg["dossier"])
     if not dossier.is_absolute():
         dossier = root / dossier

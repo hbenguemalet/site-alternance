@@ -1,7 +1,7 @@
 /* Candidatures spontanées : entreprises de la métropole lilloise avec une activité data / BI.
    Données ci-dessous ; l'état « envoyée » reste sur l'appareil (localStorage).
-   `carrieres` : page de recrutement connue. Sans elle, le bouton lance une recherche
-   « candidature spontanée » sur l'entreprise. */
+   Boutons « Offres d'emploi » : page trouvée par le bot sur le site de l'entreprise (offres.js,
+   `pages_emploi`), sinon `carrieres` ci-dessous, sinon une recherche sur l'entreprise. */
 (function () {
   "use strict";
   var CLE = "alternance-data-2027:spontanees";
@@ -79,7 +79,7 @@
   function el(tag, cls, txt) { var x = document.createElement(tag); if (cls) x.className = cls; if (txt != null) x.textContent = txt; return x; }
   function lien(cls, txt, href) { var a = el("a", cls, txt); a.href = href; a.target = "_blank"; a.rel = "noopener"; return a; }
   function recherche(e) {
-    return "https://www.google.com/search?q=" + encodeURIComponent(e.n + " " + e.v.split(" ")[0] + " candidature spontanée alternance recrutement");
+    return "https://www.google.com/search?q=" + encodeURIComponent(e.n + " " + e.v.split(" ")[0] + " offres d'emploi recrutement");
   }
 
   function mailType(e) {
@@ -140,12 +140,15 @@
         li.appendChild(lien("a-chip a-chip--good sp-recrute", "● " + nb + " : voir", (e.alt[0] || e.offres[0]).url));
       }
       var act = el("div", "sp-actions");
-      act.appendChild(lien("s-act s-act--voir", e.carrieres ? "Candidature spontanée ↗" : "Trouver la page carrières ↗", e.carrieres || recherche(e)));
+      // page des offres : celle trouvée par le bot sur le site de l'entreprise, sinon celle que je connais, sinon une recherche
+      var pageEmploi = (DATA.pages_emploi || {})[e.n] || e.carrieres;
+      act.appendChild(lien("s-act s-act--voir", pageEmploi ? "Offres d'emploi ↗" : "Chercher leurs offres ↗", pageEmploi || recherche(e)));
+      act.appendChild(lien("s-act", "Site web ↗", e.site));
       var ecrit = lien("s-act", "✎ Rédiger avec Claude", PROJET + "?q=" + encodeURIComponent(consigne(e)));
       ecrit.addEventListener("click", function () { try { navigator.clipboard.writeText(consigne(e)); } catch (x) { /* collage manuel */ } });
       act.appendChild(ecrit);
       var q = encodeURIComponent(e.n + " data");
-      act.appendChild(lien("s-act", "Toutes leurs offres ↗", "https://fr.indeed.com/jobs?q=" + q + "&l=" + encodeURIComponent(e.v.split(/[ /]/)[0])));
+      act.appendChild(lien("s-act", "Offres sur Indeed ↗", "https://fr.indeed.com/jobs?q=" + q + "&l=" + encodeURIComponent(e.v.split(/[ /]/)[0])));
       var mail = el("button", "s-act", "✉ Copier un mail type"); mail.type = "button";
       mail.addEventListener("click", function () { copier(mailType(e), mail, "Copié ✓"); });
       act.appendChild(mail);
