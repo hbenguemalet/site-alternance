@@ -46,3 +46,9 @@ def test_decouvrir_garde_la_page_meme_sans_outil(tmp_path):
     assert decouvrir([{"nom": "Acme", "url": "https://acme.fr"}], cache, [], c) == []
     from jobbot.sources.discover import pages
     assert pages(cache) == {"Acme": "https://acme.fr/jobs-chez-nous"}
+
+
+def test_lien_carrieres_ecarte_les_pages_hors_sujet():
+    from jobbot.sources.discover import lien_carrieres
+    html = '<a href="/assurance-chomage-emploi">Emploi</a><a href="/espace-societaire">Carrières</a><a href="/recrute">Carrières</a>'
+    assert lien_carrieres(html, "https://acme.fr") == "https://acme.fr/recrute"
