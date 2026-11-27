@@ -1,7 +1,7 @@
 /* Candidatures spontanées : entreprises de la métropole lilloise avec une activité data / BI.
    Données ci-dessous ; l'état « envoyée » reste sur l'appareil (localStorage).
-   Boutons « Offres d'emploi » : page trouvée par le bot sur le site de l'entreprise (offres.js,
-   `pages_emploi`), sinon `carrieres` ci-dessous, sinon une recherche sur l'entreprise. */
+   Bouton « Offres d'emploi » : page trouvée par le bot sur le site de l'entreprise (offres.js,
+   `pages_emploi`), sinon `carrieres` ci-dessous ; sans l'une ni l'autre, seul le site web est proposé. */
 (function () {
   "use strict";
   var CLE = "alternance-data-2027:spontanees";
@@ -78,9 +78,6 @@
   function ecrire(d) { try { localStorage.setItem(CLE, JSON.stringify(d)); } catch (e) { /* stockage plein ou refusé */ } }
   function el(tag, cls, txt) { var x = document.createElement(tag); if (cls) x.className = cls; if (txt != null) x.textContent = txt; return x; }
   function lien(cls, txt, href) { var a = el("a", cls, txt); a.href = href; a.target = "_blank"; a.rel = "noopener"; return a; }
-  function recherche(e) {
-    return "https://www.google.com/search?q=" + encodeURIComponent(e.n + " " + e.v.split(" ")[0] + " offres d'emploi recrutement");
-  }
 
   function mailType(e) {
     return "Objet : Candidature spontanée · alternance Data / BI (septembre 2027)\n\n"
@@ -140,10 +137,14 @@
         li.appendChild(lien("a-chip a-chip--good sp-recrute", "● " + nb + " : voir", (e.alt[0] || e.offres[0]).url));
       }
       var act = el("div", "sp-actions");
-      // page des offres : celle trouvée par le bot sur le site de l'entreprise, sinon celle que je connais, sinon une recherche
+      // page des offres trouvée par le bot (ou connue) ; sinon on renvoie simplement vers le site de l'entreprise
       var pageEmploi = (DATA.pages_emploi || {})[e.n] || e.carrieres;
-      act.appendChild(lien("s-act s-act--voir", pageEmploi ? "Offres d'emploi ↗" : "Chercher leurs offres ↗", pageEmploi || recherche(e)));
-      act.appendChild(lien("s-act", "Site web ↗", e.site));
+      if (pageEmploi) {
+        act.appendChild(lien("s-act s-act--voir", "Offres d'emploi ↗", pageEmploi));
+        act.appendChild(lien("s-act", "Site web ↗", e.site));
+      } else {
+        act.appendChild(lien("s-act s-act--voir", "Site web ↗", e.site));
+      }
       var ecrit = lien("s-act", "✎ Rédiger avec Claude", PROJET + "?q=" + encodeURIComponent(consigne(e)));
       ecrit.addEventListener("click", function () { try { navigator.clipboard.writeText(consigne(e)); } catch (x) { /* collage manuel */ } });
       act.appendChild(ecrit);
